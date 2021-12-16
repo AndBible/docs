@@ -1,3 +1,4 @@
+.. _note add to existing bookmark:
 Add a note to an existing bookmark
 ==================================
 
