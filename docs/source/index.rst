@@ -5,7 +5,9 @@ The **Bible Study App** is a free, opensource application provided by And Bible 
 and flexible interface for studying the Bible.
 
 `Github Repository <https://github.com/AndBible/and-bible>`
+
 `Webpage <https://andbible.github.io/>`
+
 `FAQ <https://github.com/AndBible/and-bible/wiki/FAQ>`
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
