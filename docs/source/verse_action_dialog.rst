@@ -3,6 +3,7 @@ Verse Action dialog
 
 Comparing verses
 ----------------
+
 1. Click on the verse you want to compare.
 2. Click the Compare button.
 3. Hide translations by clicking the 'hidden eye' button.
