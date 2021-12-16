@@ -1,5 +1,5 @@
-Notes
-=====
+Study Pads
+==========
 
 * A study pad allows you to view all your notes on a particular topic. 
 * In the Bible Study App, a topic is simply a ‘label’. 

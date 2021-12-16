@@ -22,4 +22,7 @@ Contents
    notes
    releases
    study_pads
+   verse_action_dialog
+   windows
+   workspaces
    
