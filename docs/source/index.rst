@@ -16,7 +16,7 @@ and offers a *simple* and *intuitive* API.
 .. math::
 
     n_{\mathrm{offset}} = \sum_{k=0}^{N-1} s_k n_k
-    
+
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
@@ -29,5 +29,7 @@ Contents
 
 .. toctree::
 
+   bookmarks
    usage
    api
+   
