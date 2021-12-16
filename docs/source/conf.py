@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Bible Study App'
+copyright = '2021, And Bible'
+author = 'And Bible'
 
 release = '0.1'
 version = '0.1.0'
