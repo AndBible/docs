@@ -1,6 +1,6 @@
 Labels
 =========
-..|label_button_add.png| image :: label_button_add.png
+.. |label_button_add.png| image:: /images/label_button_add.png
 
 Overview
 --------
@@ -9,7 +9,7 @@ Labels are used by bookmarks, study pads, and personal notes. The *Labels Settin
 
 Labels Settings dialog
 ----------------------
-.. image:: label_settings_dialog.png
+.. image:: /images/label_settings_dialog.png
     :width: 200px
     :align: center
     :alt: Label Settings dialog
@@ -25,7 +25,7 @@ Label dialog
 * Favourite labels always appear in the 'quick select' list.
 * 'Auto-assign' labels are automatically added to new bookmarks.
 * Delete a label by clicking the trash can. But be careful, this will delete all notes associated with the label.
-* Finally, the 'main label' icon indicates which colour the bookmark will have.  
+* Finally, the 'main label' icon indicates which colour the bookmark will have.
 
 Videos
 ------
