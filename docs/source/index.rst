@@ -19,4 +19,5 @@ Contents
 
    bookmarks
    labels
+   releases
    
