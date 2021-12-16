@@ -26,9 +26,12 @@ Access the list of workspaces via the 'dot' menu or by swiping down on the verse
 
 The Settings option allows you to edit the default settings for all windows in the workspace. 
 
-The gray workspace icon indicates you are changing a workspace default setting. These settings affect all windows in the workspace that are using the defaults.
+The **gray workspace** icon indicates you are changing a workspace default setting. 
 
-A green workspace icon indicates that this window setting *is* using the default workspace setting.
+.. warning::
+    These settings affect all windows in the workspace that are using the defaults.
+
+A **green workspace** icon indicates that this window setting *is* using the default workspace setting.
 
 If there is no green-workspace-icon, then the setting has been changed manually and the workspace settings won't affect it. Restore it to the default by pushing the Reset button. 
 

@@ -5,8 +5,9 @@ The Bible-Study-App allows you to add a note to any bookmark or study pad.
 
 Creating a note
 ---------------
-Notes can be created in multiple ways.     
-1. Add a note to an existing bookmark.
+Notes can be created in multiple ways.
+
+1. :doc:`Add a note to an existing bookmark</videos/note_add_to_existing_bookmark.rst>`.
 2. Add a note to a new bookmark.
 3. Push the 'Note-button' on the verse dialog. This creates a new bookmark with the label 'Unlabeled'.
 
