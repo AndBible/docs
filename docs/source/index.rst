@@ -19,5 +19,7 @@ Contents
 
    bookmarks
    labels
+   notes
    releases
+   study_pads
    

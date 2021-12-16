@@ -11,8 +11,8 @@ When added to part of a verse, only an icon is visible in other translations.
 Multiple labels can be added to a single bookmark. Multiple bookmarks can be added to the same verse.
 The verse action dialog shows all bookmarks for that verse, not just the bookmark clicked on.
 
-Creating
---------
+Creating a bookmark
+-------------------
 A bookmark is created by adding a label to a verse.
 
 1. Click the verse you want to bookmark.

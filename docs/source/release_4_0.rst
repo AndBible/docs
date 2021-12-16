@@ -21,3 +21,9 @@ Major new features and improvements.
 * Compare a verse with a single click and hide translations that you don’t need. 
 * A new Study-Pad view is available for every label and shows all your notes on that topic. 
 * The verse-selector now has a horizontal mode making it easier to select a verse. 
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/f2cf6-7liMo" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
