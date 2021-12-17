@@ -1,4 +1,4 @@
-.. _blah:
+.. _Add a note to an existing bookmark:
 
 Add a note to an existing bookmark
 ==================================
