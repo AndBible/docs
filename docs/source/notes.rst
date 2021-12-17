@@ -8,7 +8,7 @@ Creating a note
 Notes can be created in multiple ways.
 
 1. :ref:`Add a note to an existing bookmark`.
-2. try 2 :doc:`videos/note_add_to_existing_bookmark`
+2. try 2 :doc:`Add note <videos/note_add_to_existing_bookmark>`
 3. Add a note to a new bookmark.
 4. Push the 'Note-button' on the verse dialog. This creates a new bookmark with the label 'Unlabeled'.
 
