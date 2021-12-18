@@ -17,12 +17,18 @@ Contents
 
 .. toctree::
 
+   getting_started
+   backup_restore
    bookmarks
+   documents
    labels
    navigation
    notes
+   reading_plans
    releases
+   search
    study_pads
+   usage
    verse_action_dialog
    windows
    workspaces
