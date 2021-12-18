@@ -1,34 +1,37 @@
 Usage
 =====
 
-.. _installation:
+Overview
+--------
 
-Installation
+Below are suggestions on how you might like to configure the app for different use scenarios.
+
+Bible Study
+-----------
+
+To do.
+
+Topical Study
+-------------
+
+To do.
+
+Word Study
+----------
+
+To do.
+
+Personal Devotions
+------------------
+
+To do.
+
+Sermon notes
 ------------
 
-To use Lumache, first install it using pip:
+To do.
 
-.. code-block:: console
+Original Language Study
+-----------------------
 
-   (.venv) $ pip install lumache
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+To do.
