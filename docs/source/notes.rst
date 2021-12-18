@@ -1,7 +1,7 @@
 Notes
 =====
 
-The Bible-Study-App allows you to add a note to any bookmark or study pad. 
+The Bible Study App allows you to add a note to any bookmark or study pad. 
 
 Creating a note
 ---------------
