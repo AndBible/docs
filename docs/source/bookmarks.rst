@@ -35,6 +35,14 @@ A bookmark can also be added to multiple verses.
 3. Click on additional verses if needed.
 4. Push the Bookmark button and select a label.
 
+Deleting a bookmark
+-------------------
+To do.
+
+Editing a bookmark
+-------------------
+To do.
+
 Notes
 -----
 * Edit the labels assigned to a bookmark by clicking on an existing label.
