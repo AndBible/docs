@@ -3,7 +3,13 @@ Navigation
 
 Moving between workspaces
 -------------------------
-To do.
+
+Open the workspaces dialog
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. image:: /videos/open_workspace_dialog.gif
+    :align: center
+    :alt: Open the workspaces dialog
+
 
 Maximising a window
 -------------------
