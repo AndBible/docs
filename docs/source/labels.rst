@@ -7,6 +7,18 @@ Overview
 
 Labels are used by bookmarks, study pads, and personal notes. The *Labels Settings* dialog shows a list of all labels.
 
+Add a label
+-----------
+To do.
+
+Delete a label
+-----------
+To do.
+
+Edit a label
+-----------
+To do.
+
 Labels Settings dialog
 ----------------------
 .. image:: /images/label_settings_dialog.png
