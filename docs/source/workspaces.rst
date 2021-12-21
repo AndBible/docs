@@ -33,7 +33,10 @@ The **gray workspace** icon indicates you are changing a workspace default setti
 
 A **green workspace** icon indicates that this window setting *is* using the default workspace setting.
 
-If there is no green-workspace-icon, then the setting has been changed manually and the workspace settings won't affect it. Restore it to the default by pushing the Reset button. 
+If there is no green-workspace-icon, then the setting has been changed manually and the workspace settings won't affect it. 
+Restore it to the default by pushing the Reset button. 
+
+:doc:`Easily navigate between workspaces using gestures. <Moving between workspaces>`
 
 .. raw:: html
 
