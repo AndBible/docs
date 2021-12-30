@@ -7,7 +7,6 @@ Moving between workspaces
 Open the workspaces dialog
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. image:: /videos/workspace_dialog_open.gif
-    :align: 
     :alt: Open the workspaces dialog
     :height: 400
 
@@ -15,7 +14,6 @@ Open the workspaces dialog
 Go to the next workspace
 ^^^^^^^^^^^^^^^^^^^^^^^^
 .. image:: /videos/workspace_move_to_next.gif
-    :align: 
     :alt: Open the workspaces dialog
     :height: 400
 
