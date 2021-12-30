@@ -20,6 +20,7 @@ Contents
    getting_started
    backup_restore
    bookmarks
+   customisation
    documents
    labels
    navigation

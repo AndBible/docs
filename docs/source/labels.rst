@@ -1,5 +1,5 @@
 Labels
-=========
+======
 .. |label_button_add.png| image:: /images/label_button_add.png
 
 Overview
