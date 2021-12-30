@@ -1,6 +1,8 @@
 Windows
 =======
 
+.. contents:: Table of Contents
+
 The 'Bible Study App' provides amazing window functionality. 
 
 * Open as many windows as you need, showing 'any' document you want. 

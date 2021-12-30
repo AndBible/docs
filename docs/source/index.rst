@@ -16,6 +16,8 @@ Contents
 --------
 
 .. toctree::
+    :maxdepth: 4
+    :caption: Contents:
 
    getting_started
    backup_restore
