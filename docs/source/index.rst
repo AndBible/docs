@@ -22,7 +22,7 @@ Contents
    getting_started
    backup_restore
    bookmarks
-   customisation
+   customisation/index
    documents
    labels
    navigation
