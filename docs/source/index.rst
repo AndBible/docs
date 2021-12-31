@@ -30,6 +30,7 @@ Contents
    reading_plans
    releases
    search
+   searching
    study_pads
    usage
    verse_action_dialog
