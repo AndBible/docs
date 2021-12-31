@@ -21,8 +21,17 @@ To do.
 Advanced Search
 ---------------
 
+Search Option Compatibility
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Some searches cannot be performed with other searches. 
+
+# 'All endings' is not compatible with a 'Fuzzy Search'
+# 'Any word' / 'Phrase' is not compatible with 'Proximity'
+
 Proximity Search
 ^^^^^^^^^^^^^^^^
+
 Find words that are a within a specific distance. To do a proximity search use the tilde, "~", symbol at the end of a phrase. 
 For example to search for a "God" and "light" within 10 words of each other in a document use the search:
 
@@ -34,6 +43,7 @@ For example to search for a "God" and "light" within 10 words of each other in a
 
 Fuzzy Search
 ^^^^^^^^^^^^
+
 Fuzzy searches find words that are similar in spelling to the search words.
 To do a fuzzy search use the tilde, "~", symbol at the end of a single word term. 
 For example to search for a term similar in spelling to "believe" use the fuzzy search:
