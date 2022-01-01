@@ -21,6 +21,8 @@ To do.
 Advanced Search
 ---------------
 
+It is possible to do advanced searches using the special syntax described below.
+
 Search Option Compatibility
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

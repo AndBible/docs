@@ -28,7 +28,7 @@ Contents
    navigation
    notes
    reading_plans
-   releases
+   releases/index
    search
    searching
    study_pads
