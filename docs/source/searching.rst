@@ -57,3 +57,8 @@ with a value closer to 1 only terms with a higher similarity will be matched. Fo
 
 roam~0.8
 The default that is used if the parameter is not given is 0.5.
+
+.. admonition:: As a final thought
+
+    You don't have to use *note* for a blue box. Instead, use
+    your own title!
