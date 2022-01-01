@@ -59,3 +59,5 @@ This search will find terms like 'believes', 'believed' etc.
 To narrow the search use a larger number. A value of 0.9 is a very near match. A value of 0.3 is a very, very broad match.
 parameter can specify the required similarity. 
 
+.. caution:: Include paths are relative to the file in the document project, not the file in shared content.
+
