@@ -1,7 +1,7 @@
 Workspaces
 ==========
 
-The way we use our Bibles differs depending on what where doing. 
+The way we use our Bibles differs depending on what we are doing. 
 
 * For personal devotions we might like just one Bible in large print with no bookmarks. 
 * For daily readings we may prefer several Bibles in different translations. 
