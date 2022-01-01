@@ -1,6 +1,8 @@
 Release information
 ===================
 
+This is the table of contents.
+
 .. toctree::
     :maxdepth: 2
     :caption: Releases:
