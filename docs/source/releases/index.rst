@@ -2,7 +2,7 @@ Release information
 ===================
 
 .. toctree::
-    :maxdepth 2
+    :maxdepth: 2
     :caption: Releases:
 
     Release 4.1
