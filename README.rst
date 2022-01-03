@@ -1,3 +1,5 @@
+See the docs online at: https://andbible.readthedocs.io/
+
 Template for the Read the Docs tutorial
 ========== =============================
 
