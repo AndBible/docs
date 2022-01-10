@@ -1,3 +1,9 @@
 .wy-side-nav-search, .wy-nav-top {
     background: #be8c00;
 }
+.rst-content code {
+    border-radius: 5px;
+}
+.rst-content code.literal {
+    color: #146ff9;
+}

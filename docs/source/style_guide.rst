@@ -27,8 +27,8 @@ Heading 4
 Lists
 =====
 
-# Automatic numbered list
-# Automatic numbered list again
+#. Automatic numbered list
+#. Automatic numbered list again
 
 images
 ======
