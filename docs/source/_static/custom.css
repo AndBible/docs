@@ -3,10 +3,14 @@
 }
 .rst-content code {
     border-radius: 5px;
+    font-size: 80%;
 }
 .rst-content code.literal {
     color: #146ff9;
 }
 .rst-content img {
     box-shadow: 0 0 4px 2px #00000047;
+}
+p {
+    margin-bottom: 12px;
 }
