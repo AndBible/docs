@@ -1,0 +1,5 @@
+Substitutions
+#############
+
+.. |App| replace:: AndBible
+

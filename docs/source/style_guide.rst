@@ -30,7 +30,13 @@ Lists
 # Automatic numbered list
 # Automatic numbered list again
 
+images
+======
 
+.. image:: /images/label_settings_dialog.png
+    :width: 200px
+    :align: center
+    :alt: Label Settings dialog
 
 Boxes
 =====
