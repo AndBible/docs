@@ -12,7 +12,9 @@ Overview
 |app| uses the `Text to Speech <https://www.lifewire.com/use-google-text-to-speech-on-android-4767200>`_ functionality of your device 
 to speak the text of the Bible, commentaries and books.
 
-The **Speak** dialog can be accessed from the `\|hamburger\| menu > Speak`
+The `Speak` dialog can be accessed from:
+* `☰ menu > Speak`
+* Playback control menu that is visible at the bottom of the screen when speech has been started.
 
 +--------------------------------------+----------------------------------------------------------------+
 | **Speak and play earcon sounds for**                                                                  |
