@@ -31,6 +31,7 @@ Contents
    releases/index
    search
    searching
+   speak
    study_pads
    usage
    verse_action_dialog
