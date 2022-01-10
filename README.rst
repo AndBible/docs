@@ -13,5 +13,8 @@ Convert from github MD to RST:
 https://cloudconvert.com/md-to-rst
 
 
+The theme we are using:
+https://sphinx-rtd-theme.readthedocs.io/en/stable/ 
+
 Helpful style guides
 https://labs.bilimedtech.com/workshops/rst/writing-rst-3.html
