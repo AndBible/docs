@@ -12,12 +12,12 @@ Overview
 |app| uses the `Text to Speech <https://www.lifewire.com/use-google-text-to-speech-on-android-4767200>`_ functionality of your device 
 to speak the text of the Bible, commentaries and books.
 
-The **Speak** dialog can be accessed from the ``|hamburger| menu > Speak``
+The **Speak** dialog can be accessed from the `\|hamburger\| menu > Speak`
 
 +--------------------------------------+----------------------------------------------------------------+
 | **Speak and play earcon sounds for**                                                                  |
 +--------------------------------------+----------------------------------------------------------------+
-|   Chapter Changes                    | *Plays a short sound when a new chapter is reached.*           |
+|   Chapter Changes                    | Plays a short sound when a new chapter is reached.             |
 +--------------------------------------+----------------------------------------------------------------+
 |   Titles                             | Read the titles that translators have added to the Bible text. |
 +--------------------------------------+----------------------------------------------------------------+
@@ -30,20 +30,3 @@ The **Speak** dialog can be accessed from the ``|hamburger| menu > Speak``
 | **Sleep timer**                      | Stop the playback after the number of minutes specified.       |
 +--------------------------------------+----------------------------------------------------------------+
 
-
-
-
-
-.. list-table:: Speech Options
-   :widths: 25 75
-   :header-rows: 1
-
-   * - Field
-     - Description
-   * - Speak and play earcon sounds for
-   * - Chapter Changes
-     - Plays a short sound when a new chapter is reached.
-   * - Titles
-     - Read the titles that translators have added to the Bible text.
-   * - Footnotes
-     - Read the footnotes included in the Bible text.
