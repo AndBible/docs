@@ -21,3 +21,6 @@ https://labs.bilimedtech.com/workshops/rst/writing-rst-3.html
 
 RST Manual
 https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#substitutions
+
+Conf file options
+https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-rst_prolog 

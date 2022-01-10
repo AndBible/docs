@@ -4,7 +4,7 @@ Style Guide
 Inline Formatting
 -----------------
 
-Put ``something`` in a red box.
+Put ``something`` in a box.
 
 :Whatever: This is handy way to create a field
 
@@ -30,7 +30,7 @@ Lists
 #. Automatic numbered list
 #. Automatic numbered list again
 
-images
+Images
 ======
 
 .. image:: /images/label_settings_dialog.png
@@ -50,4 +50,9 @@ For example to search for a "God" and "light" within 10 words of each other in a
 .. note::
     The order of the words are important. The above example will find verses where the word 'God' comes before the word 'light'
 
+Links
+=====
 
+External Links
+
+`Link text <https://abc.net.au>`
