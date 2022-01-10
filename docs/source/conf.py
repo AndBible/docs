@@ -39,4 +39,5 @@ def setup(app):
 
 rst_prolog = """
 .. |app| replace:: AndBible
+.. |hamburger| replace:: ☰ 
 """
