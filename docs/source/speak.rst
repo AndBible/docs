@@ -9,7 +9,7 @@ Speak
 Overview
 --------
 
-|App| uses the Text to Speech functionality of your device to speak the text of the Bible, commentaries and books.
+|app| uses the Text to Speech functionality of your device to speak the text of the Bible, commentaries and books.
 
 Bible searches
 --------------
