@@ -1,6 +1,10 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
+rst_prolog = """
+.. |app| replace:: *AndBible*
+.. |hamburger| replace:: ☰ 
+"""
 
 project = 'Bible Study App'
 copyright = '2021, And Bible'
@@ -37,7 +41,4 @@ epub_show_urls = 'footnote'
 def setup(app):
     app.add_css_file('custom.css')
 
-rst_prolog = """
-.. |app| replace:: AndBible
-.. |hamburger| replace:: ☰ 
-"""
+

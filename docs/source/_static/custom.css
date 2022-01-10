@@ -7,3 +7,6 @@
 .rst-content code.literal {
     color: #146ff9;
 }
+.rst-content img {
+    box-shadow: 0 0 4px 2px #00000047;
+}
