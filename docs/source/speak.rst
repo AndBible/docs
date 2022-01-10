@@ -13,17 +13,18 @@ Overview
 to speak the text of the Bible, commentaries and books.
 
 The `Speak` dialog can be accessed from:
+
 - ``☰ menu > Speak``
 - Playback control menu that is visible at the bottom of the screen when speech has been started.
 
 +--------------------------------------+----------------------------------------------------------------+
 | **Speak and play earcon sounds for**                                                                  |
 +--------------------------------------+----------------------------------------------------------------+
-| - Chapter Changes                    | Plays a short sound when a new chapter is reached.             |
+| *Chapter Changes*                    | Plays a short sound when a new chapter is reached.             |
 +--------------------------------------+----------------------------------------------------------------+
-| - Titles                             | Read the titles that translators have added to the Bible text. |
+| *Titles*                             | Read the titles that translators have added to the Bible text. |
 +--------------------------------------+----------------------------------------------------------------+
-| - Footnotes                          | Read the footnotes included in the Bible text.                 |
+| *Footnotes*                          | Read the footnotes included in the Bible text.                 |
 +--------------------------------------+----------------------------------------------------------------+
 | **Speak speed**                      | The speed that the text will be read.                          |
 +--------------------------------------+----------------------------------------------------------------+

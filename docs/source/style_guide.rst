@@ -4,6 +4,8 @@ Style Guide
 Inline Formatting
 -----------------
 
+*italics*
+**bold**
 Put ``something`` in a box.
 
 :Whatever: This is handy way to create a field
@@ -29,6 +31,11 @@ Lists
 
 #. Automatic numbered list
 #. Automatic numbered list again
+
+Bulletd list. Make sure there is a line space between this paragraph and the start of the list.
+
+- Item a
+- Item b
 
 Images
 ======
