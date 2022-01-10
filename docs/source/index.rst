@@ -29,7 +29,6 @@ Contents
    notes
    reading_plans
    releases/index
-   search
    searching
    speak
    study_pads
