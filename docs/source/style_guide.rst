@@ -1,5 +1,5 @@
 Style Guide
-===========
+###########
 
 Inline Formatting
 -----------------
@@ -10,12 +10,15 @@ Put ``something`` in a red box.
 
 
 Heading 1
-=========
+#########
 
 Heading 2
----------
+*********
 
 Heading 3
+=========
+
+Heading 4
 ^^^^^^^^^
 
 Heading 4
