@@ -30,3 +30,12 @@ The `Speak` dialog can be accessed from:
 | **Sleep timer**                      | Stop the playback after the number of minutes specified.       |
 +--------------------------------------+----------------------------------------------------------------+
 
+How to speak a range of verses
+------------------------------
+
+#. Tick the ``Repeat passage`` box. This will show the verse selector.
+#. Choose the book, chapter and verse at which to start.
+#. Then choose the book, chapter and verse at which to end.
+#. The range will now be displayed.
+#. Push the Play ▶ button at the bottom of the screen to start playback.
+
