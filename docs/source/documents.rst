@@ -4,12 +4,14 @@ Document Library
 Overview
 --------
 
-To do.
+Document library contains the list of all Bible, dictionary, commentary, books, and other modules that have been download.
+To access the library tap and hold on the book name on the top left side is the menu bar.
 
 Bibles
 ------
 
-To do.
+Bible modules can be downloaded from going to main menu then taping on download documents.
+You can filter the list by selecting bibles for "All Types" or by language.
 
 Commentaries
 ------------
