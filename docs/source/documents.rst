@@ -50,21 +50,3 @@ Maps
 To do.
 
 
-Windows 11 setup
-------
-
-To run AndBible on windows 11:
-
-This may be a bit technical if you are outside the US or not on Windows 11 beta. It involves downloading the Windows Subsystem for Android (WSA), running a command to install it, starting Windows Subsystem for Android, enabling developer mode, downloading the apk from GitHub releases, and installing the app with adb.
-
-Install WSA following these instructions:
- https://www.xda-developers.com/how-to-run-android-apps-on-any-windows-11-pc/
-
-Set up adb:
- https://www.xda-developers.com/install-adb-windows-macos-linux/
-
-Download the APK from GitHub releases:
- https://github.com/AndBible/and-bible/releases/latest
-
-How to sideload apps on WSA:
- https://www.xda-developers.com/how-to-sideload-android-apps-on-windows-11/
