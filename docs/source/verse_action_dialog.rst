@@ -4,7 +4,23 @@ Verse Action dialog
 Bookmark
 --------
 
-See 
+The bookmark icon creates a new bookmark and displays the Quick Label selector. 
+See :doc:`Adding a bookmark </bookmarks:Creating a bookmark>` for more information.
+
+Note
+----
+
+To do.
+
+My Notes
+--------
+
+To do.
+
+Share
+-----
+
+To do.
 
 Comparing verses
 ----------------
