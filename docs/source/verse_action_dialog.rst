@@ -10,17 +10,19 @@ See :ref:`Adding a bookmark <bookmarks:Creating a bookmark>` for more informatio
 Note
 ----
 
-To do.
+The note icon creates a new bookmark with the 'Unlabeled' label and opens the Notes window. 
+You can immediately start entering your note or click the 'Unlabeled' tag at the top of the dialog to change the label.
+See :ref:`Creating a note <notes:Creating a note>` for more information.
 
 My Notes
 --------
 
-To do.
+The My Notes icon displays all the notes you have taken for the current chapter in the Links window.
 
 Share
 -----
 
-To do.
+The Share icon allows you to copy or share the highlighted verses. See :doc:`Sharing Verses <share>` for more information.
 
 Comparing verses
 ----------------

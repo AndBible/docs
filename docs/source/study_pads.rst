@@ -8,7 +8,7 @@ Study Pads
 * Once we have a label we can view the study-pad associated with it.
 * Of course, because we don't yet have any bookmarks with this label and we haven't added any notes, the study pad is empty.
 * Let's give the study-pad a better title. To do this we need to add a note. Click  the plus button.
-* Now let's add our first Bible reference. In a bible window, :doc:`add a bookmark <bookmarks>` and assign it the study pad label.
+* Now let's add our first Bible reference. In a bible window, :ref:`add a bookmark <bookmarks:Creating a bookmark>` and assign it the study pad label.
 * You can see as soon as we add this label to a verse, it appears in the study pad.
 * Now, suppose we want to add a note that is directly related to the verse we just bookmarked. 
   To do that we need to go to the bookmark itself and add the note. The new note automatically appears.
