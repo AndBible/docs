@@ -64,6 +64,18 @@ External Links
 
 `Link text <https://abc.net.au>`
 
+Links to other pages
+
+:doc:`add a bookmark </bookmarks>`
+
+Links to a specific section of another page
+
+:doc:`add a bookmark </bookmarks:Creating a bookmark>`
+
+Links to other paragraphs in the same page
+
+:ref:`add a bookmark <Creating a bookmark>`
+
 Tables
 ======
 

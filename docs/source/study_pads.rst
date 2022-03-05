@@ -8,7 +8,7 @@ Study Pads
 * Once we have a label we can view the study-pad associated with it.
 * Of course, because we don't yet have any bookmarks with this label and we haven't added any notes, the study pad is empty.
 * Let's give the study-pad a better title. To do this we need to add a note. Click  the plus button.
-* Now let's add our first Bible reference. In a bible window, :ref:`add a bookmark <Creating a bookmark>` and assign it the study pad label.
+* Now let's add our first Bible reference. In a bible window, :doc:`add a bookmark </bookmarks:Creating a bookmark>` and assign it the study pad label.
 * You can see as soon as we add this label to a verse, it appears in the study pad.
 * Now, suppose we want to add a note that is directly related to the verse we just bookmarked. 
   To do that we need to go to the bookmark itself and add the note. The new note automatically appears.
@@ -19,7 +19,7 @@ Study Pads
 * Now lets try that with the verse. See how the note moves with-the-verse.
 * The dot menu provides some additional features. You can collapse the verse so it takes up less space by pushing the Collapse button.
 * You can also indent a section.
-* Or you can remove it completely. But be careful! That will delete the bookmark and any note attached to it.
+* Or you can remove it completely. But be careful! That will delete the bookmark and any note attached to it.
 * Finally, it would be great if there was an easy way to label a verse. You can do that by setting the 'auto-assign' property of a label.
 * You can also set that property directly from the list.
 * Now when you add a new bookmark it will automatically get that label - and it will automatically appear in your Study Pad.
