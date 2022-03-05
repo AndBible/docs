@@ -7,7 +7,7 @@ rst_prolog = """
 """
 
 project = 'Bible Study App'
-copyright = '2021, And Bible Open Source Project'
+copyright = '2022, And Bible Open Source Project'
 author = 'And Bible Open Source Project'
 
 release = '0.1'
