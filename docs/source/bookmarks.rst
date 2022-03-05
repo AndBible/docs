@@ -13,6 +13,12 @@ When added to part of a verse, only an icon is visible in other translations.
 Multiple labels can be added to a single bookmark. Multiple bookmarks can be added to the same verse.
 The verse action dialog shows all bookmarks for that verse, not just the bookmark clicked on.
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/--PXdvFRLGcAA" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
 Creating a bookmark
 -------------------
 A bookmark is created by adding a label to a verse.
@@ -35,6 +41,12 @@ A bookmark can also be added to multiple verses.
 3. Click on additional verses if needed.
 4. Push the Bookmark button and select a label.
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/--rcQv6YNeMpQ" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
 Deleting a bookmark
 -------------------
 To do.
@@ -50,3 +62,4 @@ Notes
 * The colour used for the highlight is indicated by the 'Main Label' icon.
 * Change the 'Main Label' by clicking on a different label.
 * Remove a label by clicking on it twice.
+
