@@ -70,11 +70,11 @@ Links to other pages
 
 Links to a specific section of another page
 
-:ref:`add a bookmark </bookmarks:Creating a bookmark>`
+:ref:`add a bookmark <bookmarks:Creating a bookmark>`
 
 Links to other paragraphs in the same page
 
-:ref:`add a bookmark <Creating a bookmark>`
+:ref:`This jumps to Inline Formatting above <Inline Formatting>`
 
 Tables
 ======
