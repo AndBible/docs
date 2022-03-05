@@ -5,7 +5,9 @@ Inline Formatting
 -----------------
 
 *italics*
+
 **bold**
+
 Put ``something`` in a box.
 
 :Whatever: This is handy way to create a field
