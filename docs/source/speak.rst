@@ -1,11 +1,6 @@
 Speak
 =====
 
-.. image:: /images/speak_page.jpg
-    :width: 300px
-    :align: center
-    :alt: Speak Settings
-
 Voice used for speaking
 -----------------------
 |app| uses the `Text to Speech <https://www.lifewire.com/use-google-text-to-speech-on-android-4767200>`_ functionality of your device 
@@ -47,4 +42,9 @@ How to speak a range of verses
 #. Then choose the book, chapter and verse at which to end.
 #. The range will now be displayed.
 #. Push the Play ▶ button at the bottom of the screen to start playback.
+
+.. image:: /images/speak_page.jpg
+    :width: 300px
+    :align: center
+    :alt: Speak Settings
 
