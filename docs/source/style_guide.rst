@@ -70,7 +70,7 @@ Links to other pages
 
 Links to a specific section of another page
 
-:doc:`add a bookmark </bookmarks:Creating a bookmark>`
+:ref:`add a bookmark </bookmarks:Creating a bookmark>`
 
 Links to other paragraphs in the same page
 
