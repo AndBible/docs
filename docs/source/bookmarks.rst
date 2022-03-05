@@ -24,22 +24,22 @@ Creating a bookmark
 A bookmark is created by adding a label to a verse.
 
 1. Click the verse you want to bookmark.
-2. Push the Bookmark button.
+2. Push the `Bookmark` button.
 3. Choose a label.
 
 A bookmark can also be added to part of a verse.
 
 1. Click and hold on a word that you want to bookmark.
 2. Extend the highlight as required.
-3. Choose 'Selection' or 'Bookmark > Selection'
+3. Choose `Selection` or `Bookmark > Selection``
 4. Find or add new labels by clicking on the Labels button.
 
 A bookmark can also be added to multiple verses.
 
 1. Click the first verse you want to bookmark.
-2. Click the Plus button. The following verse is automatically selected.
+2. Click the `Plus` button. The following verse is automatically selected.
 3. Click on additional verses if needed.
-4. Push the Bookmark button and select a label.
+4. Push the `Bookmark` button and select a label.
 
 .. raw:: html
 

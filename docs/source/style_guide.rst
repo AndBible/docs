@@ -1,5 +1,5 @@
-Style Guide
-###########
+Style Guide for Documentation Contributions
+###########################################
 
 Inline Formatting
 -----------------
