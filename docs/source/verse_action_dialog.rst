@@ -5,7 +5,7 @@ Bookmark
 --------
 
 The bookmark icon creates a new bookmark and displays the Quick Label selector. 
-See :doc:`Adding a bookmark </bookmarks:Creating a bookmark>` for more information.
+See :doc:`Adding a bookmark <bookmarks:Creating a bookmark>` for more information.
 
 Note
 ----

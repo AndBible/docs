@@ -2,7 +2,7 @@ Study Pads
 ==========
 
 * A study pad allows you to view all your notes on a particular topic. 
-* In the Bible Study App, a topic is simply a ‘label’. 
+* In the Bible Study App, a topic is simply a :doc:`label <labels>`. 
 * Notes can be added to a study pad directly or by adding a note to a bookmarked verse with that label.
 * A label could be anything – a topic like 'Holiness' , 'Salvation' or an event like 'Sermon on 24 February'.
 * Once we have a label we can view the study-pad associated with it.
