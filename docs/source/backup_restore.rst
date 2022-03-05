@@ -14,10 +14,10 @@ How to backup your data
 
 To backup your Bookmarks and Notes:
 
-# From the main menu tap on "Backup & Restore".
-# Tap on "Share or Backup App Database To".
-# To store the database on the cloud tap on "Share", this will direct you to select a cloud storage location.
-# Taping on "Phone Storage" will allow you to choose a location on your device to save the database file.
+#. From the main menu tap on "Backup & Restore".
+#. Tap on "Share or Backup App Database To".
+#. To store the database on the cloud tap on "Share", this will direct you to select a cloud storage location.
+#. Taping on "Phone Storage" will allow you to choose a location on your device to save the database file.
 
 To backup your Bible modules, dictionaries, commentaries:
 
