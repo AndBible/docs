@@ -1,6 +1,7 @@
 Workspaces
 ==========
-
+The concept of a work space is similar to having different multiple parks or playgrounds with the same swing sets.
+Workspaces allows you to have different windows whether it be Bibles, commentaries, dictionaries, or any combination of these documents arranged in different fonts, formats, or order.
 The way we use our Bibles differs depending on what we are doing. 
 
 * For personal devotions we might like just one Bible in large print with no bookmarks. 
