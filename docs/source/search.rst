@@ -6,12 +6,24 @@ The search form allows searching of Bible and commentaries.
 Overview
 --------
 
-To do.
+Find allows you to search for word(s), phrases, or any combination of words.
+
 
 Bible searches
 --------------
 
-To do.
+To search for a specific word in any Bible module tap on the burger menu located at the top left, then tap on "Find" . Then enter the word you are looking to find.
+Optionally you can limit your search to only the OT, NT, or the book you are currently viewing.
+If you enter multiple words,  optionally you can also look for an exact match, as a phrase, or for any of the words appearing any where within a verse.
+
+For Bible modules that contain Strong's numbers, you can enter the following to find any verses where that number appears:
+
+Note: the word strong must be in lower case.
+
+strong:h3068
+
+strong:G11
+
 
 Commentary searches
 -------------------
