@@ -12,6 +12,7 @@ Google Play Store
 -----------------
 
 .. image:: https://freeiconshop.com/wp-content/uploads/edd/google-play-badge.png
+   :width: 200
    :target: https://play.google.com/store/apps/details?id=net.bible.android.activity
 
 Click on the link above and install the application.
@@ -20,6 +21,7 @@ F-Droid
 -------
 
 .. image:: https://gitlab.com/fdroid/artwork/-/raw/master/badge/get-it-on-en-us.png
+   :width: 200
    :target: https://f-droid.org/packages/net.bible.android.activity/
 
 Click on the F-Droid app link above and install the app.
@@ -28,6 +30,7 @@ Amazon App Store
 ----------------
 
 .. image:: https://freeiconshop.com/wp-content/uploads/edd/amazon-badge.png
+   :width: 200
    :target: http://www.amazon.com/Martin-Denham-And-Bible/dp/B004Z2KKYK
 
 Click on the Amazon link above and install the application.
