@@ -11,29 +11,31 @@ store and directly from GitHub releases.
 Google Play Store
 -----------------
 
-` <https://play.google.com/store/apps/details?id=net.bible.android.activity>`__
+.. image:: https://freeiconshop.com/wp-content/uploads/edd/google-play-badge.png
+   :target: https://play.google.com/store/apps/details?id=net.bible.android.activity
 
 Click on the link above and install the application.
 
 F-Droid
 -------
 
-` <https://f-droid.org/packages/net.bible.android.activity/>`__
+.. image:: https://gitlab.com/fdroid/artwork/-/raw/master/badge/get-it-on-en-us.png
+   :target: https://f-droid.org/packages/net.bible.android.activity/
 
 Click on the F-Droid app link above and install the app.
 
 Amazon App Store
 ----------------
 
-` <http://www.amazon.com/Martin-Denham-And-Bible/dp/B004Z2KKYK>`__
+.. image:: https://freeiconshop.com/wp-content/uploads/edd/amazon-badge.png
+   :target: http://www.amazon.com/Martin-Denham-And-Bible/dp/B004Z2KKYK
 
 Click on the Amazon link above and install the application.
 
 GitHub Releases
 ---------------
 
-`|app| GitHub
-Releases <https://github.com/AndBible/and-bible/releases/latest>`__
+`GitHub Releases <https://github.com/AndBible/and-bible/releases/latest>`_
 
 Go to the link above and download the .apk file in the “Assets”
 sub-menu. Then, click on the downloaded file and add the necessary
