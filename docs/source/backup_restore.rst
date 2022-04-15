@@ -45,6 +45,5 @@ To restore your Bookmarks and Notes:
 To restore your Bible modules, dictionaries, commentaries:
 
 #. From the main menu tap on `Backup & Restore`.
-#. Tap on `Restore Documents From`.
 #. Tap on `Load Document From ZIP/Restore Document From`.
 #. Select location on your device where the Document file is located.
