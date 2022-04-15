@@ -49,7 +49,12 @@ A bookmark can also be added to multiple verses.
 
 Deleting a bookmark
 -------------------
-To do.
+A bookmark is deleted from the verse action dialog box.
+
+1. Click the verse containing the bookmark you want to delete.
+2. The verse action dialog shows all bookmarks for that verse, not just the bookmark clicked on.
+3. Click the trash can icon inside the bookmark you wish to delete.
+4. Confirm deletion.
 
 Editing a bookmark
 -------------------
