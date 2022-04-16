@@ -1,15 +1,14 @@
 Template for the Read the Docs tutorial
 ========== =============================
 
-
+The ReadTheDocs project can be found here:
+https://readthedocs.org/projects/andbible/
 
 Read the tutorial here:
-
 https://docs.readthedocs.io/en/stable/tutorial/
 
 Convert from github MD to RST:
 https://cloudconvert.com/md-to-rst
-
 
 The theme we are using:
 https://sphinx-rtd-theme.readthedocs.io/en/stable/ 
