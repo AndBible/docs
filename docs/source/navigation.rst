@@ -6,7 +6,7 @@ Go to a Bible reference
 Tap the Bible reference at the top:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. image:: /images/header.jpg
-    :alt: Open the workspaces dialog
+    :alt: AndBible header Bible reference
     :height: 100
 
 The "Book Chooser" will display where you can select any book that is available in the current document.
