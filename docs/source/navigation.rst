@@ -4,6 +4,7 @@ Navigation
 Go to a Bible reference
 -------------------------
 Tap the Bible reference at the top:
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. image:: /images/header.jpg
     :alt: Open the workspaces dialog
     :height: 100
