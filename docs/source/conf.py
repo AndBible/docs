@@ -6,7 +6,7 @@ rst_prolog = """
 .. |hamburger| replace:: ☰ 
 """
 
-project = 'Bible Study App'
+project = 'AndBible: Bible Study'
 copyright = '2022, And Bible Open Source Project'
 author = 'And Bible Open Source Project'
 
