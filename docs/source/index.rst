@@ -1,7 +1,7 @@
-Welcome to the Bible Study App's documentation!
+Welcome to the And Bible: Bible Study's documentation!
 ===============================================
 
-The **Bible Study App** is a free, opensource application provided by And Bible that gives users  an advanced
+The **AndBible: Bible Study** is a free, opensource application provided by And Bible Open Source Project, that gives users  an advanced
 and flexible interface for studying the Bible.
 
 * `Github Repository <https://github.com/AndBible/and-bible>`_
