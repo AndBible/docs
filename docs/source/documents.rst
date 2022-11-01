@@ -54,14 +54,12 @@ How to Delete a Module:
 ----
 
 To delete any of the above module types:
- From the menu bar at the top, 
+
+From the menu bar at the top;
 Tap to Enter menu, then tap on "Choose Document". Optionally you can tap and hold on the book name on the menu bar.
 This will take you to the document screen.
 Choose the type of document to filter by, e.g. Bibles, Maps, etc.
 From the list, tap and hold on the module you want to delete.
 Once highlighted, at the top right corner on the menu bar, tap on the trash can icon.
 Tap "Yes" to confirm delete.
-
-
-
 
