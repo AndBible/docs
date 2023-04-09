@@ -31,7 +31,7 @@ A bookmark can also be added to part of a verse.
 
 1. Click and hold on a word that you want to bookmark.
 2. Extend the highlight as required.
-3. Choose `Bookmark > Selection` (Choosing `Verses` labels the whole verse).
+3. Choose `Selection` or `Bookmark > Selection` (the text displayed is controlled by the 'One-step bookmarking' application preference). Choosing `Verses` labels the whole verse.
 4. Find or add new labels by clicking on the `Select or edit labels...` button.
 
 A bookmark can also be added to multiple verses.
