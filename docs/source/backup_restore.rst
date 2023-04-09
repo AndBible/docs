@@ -46,3 +46,5 @@ To restore your Bible modules, dictionaries, commentaries:
 #. Tap on `Restore Documents From`.
 #. Tap on `Load Document From ZIP/Restore Document From`.
 #. Select location on your device where the Document file is located.
+
+NOTE: This form will change significantly in the next release.
