@@ -31,14 +31,14 @@ A bookmark can also be added to part of a verse.
 
 1. Click and hold on a word that you want to bookmark.
 2. Extend the highlight as required.
-3. Choose `Selection` or `Bookmark > Selection``
-4. Find or add new labels by clicking on the Labels button.
+3. Choose `Selection` or `Bookmark > Selection` (the text displayed is controlled by the 'One-step bookmarking' application preference). Choosing `Verses` labels the whole verse.
+4. Find or add new labels by clicking on the `Select or edit labels...` button.
 
 A bookmark can also be added to multiple verses.
 
 1. Click the first verse you want to bookmark.
-2. Click the `Plus` button. The following verse is automatically selected.
-3. Click on additional verses if needed.
+2. Click the `Plus` button in the upper right of the verse action dialog box. The following verse is automatically selected.
+3. Click on additional verses if needed.  To deselect a verse you have added, click the verse the comes before it.
 4. Push the `Bookmark` button and select a label.
 
 .. raw:: html
@@ -49,7 +49,12 @@ A bookmark can also be added to multiple verses.
 
 Deleting a bookmark
 -------------------
-To do.
+A bookmark is deleted from the verse action dialog box.
+
+1. Click the verse containing the bookmark you want to delete.
+2. The verse action dialog shows all bookmarks for that verse, not just the bookmark clicked on.
+3. Click the trash can icon inside the bookmark you wish to delete.
+4. Confirm deletion.
 
 Editing a bookmark
 -------------------
