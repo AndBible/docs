@@ -18,6 +18,14 @@ After you select the book, it will take you to the next screen where you can sel
 
 After selecting chapter it will take you back to the Bible screen and open the Bible at that reference.
 
+Opening Deuterocanonical books
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+When your active window is a Bible version that contains deuterocanonical books, there will be a '+' icon
+in the "Book Chooser" where you are then able to see the rest of the deuterocanonical books. For example,
+open KJVA in a window, go to the "Book Chooser" and you should see a '+' menu icon close to the top right.
+Tap that and it will display the deuterocanonical books in the list.
+
+
 Navigate directly to verse number
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 If you would like to have another screen to select the verse number, you can enable that in Application preferences.
