@@ -63,6 +63,10 @@ Download the APK from GitHub releases:
 How to sideload apps on WSA:
  https://www.xda-developers.com/how-to-sideload-android-apps-on-windows-11/
 
+Linux setup
+-----------
+
+See instructions from our Wiki: https://github.com/AndBible/and-bible/wiki/Running-AndBible-on-Linux
 
 Changing the look and feel
 --------------------------
