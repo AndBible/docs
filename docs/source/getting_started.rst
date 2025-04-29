@@ -5,8 +5,7 @@ Installation
 ------------
 
 There are four main ways to install |app| on an Android phone. You can install |app|
-using the Google Play Store, F-Droid, the Amazon App Store and directly from our
-GitHub source code repository.
+using the Google Play Store, F-Droid, the Amazon App Store and directly from the Releases section of our GitHub source code repository.
 
 Google Play Store
 -----------------
