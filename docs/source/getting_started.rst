@@ -4,9 +4,9 @@ Getting Started
 Installation
 ------------
 
-There are four main ways to install |app|. You can install |app|
-using the Google Play Store version, the F-Droid version, the Amazon app
-store and directly from GitHub releases.
+There are four main ways to install |app| on an Android phone. You can install |app|
+using the Google Play Store, F-Droid, the Amazon App Store and directly from our
+GitHub source code repository.
 
 Google Play Store
 -----------------
@@ -15,16 +15,16 @@ Google Play Store
    :width: 200
    :target: https://play.google.com/store/apps/details?id=net.bible.android.activity
 
-Click on the link above and install the application.
+Click the image above to get the app from the Google Play store.
 
 F-Droid
 -------
 
-.. image:: https://gitlab.com/fdroid/artwork/-/raw/master/badge/get-it-on-en-us.png
+.. image:: /images/f-droid-badge.png
    :width: 200
    :target: https://f-droid.org/packages/net.bible.android.activity/
 
-Click on the F-Droid app link above and install the app.
+Click the image above to get the app from F-Droid.
 
 Amazon App Store
 ----------------
@@ -33,23 +33,34 @@ Amazon App Store
    :width: 200
    :target: http://www.amazon.com/Martin-Denham-And-Bible/dp/B004Z2KKYK
 
-Click on the Amazon link above and install the application.
+Click the image above to get the app from the Amazon App Store.
 
 GitHub Releases
 ---------------
 
+.. image:: /images/obtainium-badge.png
+   :width: 200
+   :target: https://obtainium.imranr.dev/
+
+Click the image above to get Obtainium which can download (and update)
+the apk from Github. Alternatively, you can download and install the
+apk directly from the "Assets" sub-menu in the
 `GitHub Releases <https://github.com/AndBible/and-bible/releases/latest>`_
 
-Go to the link above and download the .apk file in the “Assets”
-sub-menu. Then, click on the downloaded file and add the necessary
-permissions to the browser you are using. Finally, click “Install”
+(Note: An apk downloaded directly from Github will not automatically update)
 
 Windows 11 setup
 -----------------
 
-To run |app| on windows 11:
+** Note: Windows Subsystem for Android has been discontinued as of March 5th, 2025.
 
-This may be a bit technical if you are outside the US or not on Windows 11 beta. It involves downloading the Windows Subsystem for Android (WSA), running a command to install it, starting Windows Subsystem for Android, enabling developer mode, downloading the apk from GitHub releases, and installing the app with adb.
+To run |app| on Windows 11:
+
+This may be a bit technical if you are outside the US and involves
+downloading the Windows Subsystem for Android (WSA),
+running a command to install it, starting Windows Subsystem for Android,
+enabling developer mode, downloading the apk from GitHub releases,
+and installing the app with adb.
 
 Install WSA following these instructions:
  https://www.xda-developers.com/how-to-run-android-apps-on-any-windows-11-pc/
