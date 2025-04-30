@@ -5,10 +5,10 @@ Overview
 --------
 
 The backup and restore function allows you to export your |app| data so that
-you can restore them on other devices as  well as to preserve them in
-case of a device failure. It is recommended to backup your database file
-often which contains Notes, Bookmarks, Application settings, Reading Plans,
-and other information.
+you can restore it on other devices and to preserve your data in
+case of device failure. It is recommended to backup your database file
+often. The database contains your notes, bookmarks, application settings,
+reading plans, and other information.
 
 How to backup your data
 -----------------------
@@ -17,8 +17,8 @@ How to backup your data
 #. Under `Backup` select the radio option for the type of data you would like
    to backup:
 
-    - Choose `Database` to backup your Bookmarks, Labels, Notes,
-      Study Pads, Reading Plans, Workspaces, etc.
+    - Choose `Database` to backup your Application Settings, Bookmarks, Labels,
+      Notes, Study Pads, Reading Plans, Workspaces, etc.
     - Choose `Documents` to backup your Bibles, Dictionaries,
       Commentaries, Maps, etc. (You will be prompted which modules you
       want to backup)
@@ -42,8 +42,8 @@ To restore your |app| data:
 #. Under `Restore or Import` select the radio option for the type of data
    you would like to restore:
 
-   - Choose `Database` to restore your Bookmarks, Labels, Notes,
-     Study Pads, Reading Plans, Workspaces, etc.
+   - Choose `Database` to restore your Application Settings, Bookmarks, Labels,
+     Notes, Study Pads, Reading Plans, Workspaces, etc.
    - Choose `Documents` to restore your Bibles, Dictionaries, Commentaries,
      Maps, etc.
 
