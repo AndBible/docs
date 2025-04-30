@@ -1,5 +1,5 @@
 Welcome to the AndBible: Bible Study's documentation!
-===============================================
+=====================================================
 
 The **Bible Study App** is a free, opensource application provided by AndBible that gives users an advanced
 and flexible interface for studying the Bible.
@@ -37,4 +37,4 @@ Contents
    windows
    workspaces
    note_add_to_existing_bookmark
-   
+
