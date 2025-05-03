@@ -4,14 +4,17 @@ Bookmarks
 Overview
 --------
 
-A bookmark is a label attached to a verse. A bookmark can be added to whole verses.
-When added to whole verses, the bookmark is visible in all translations.
+A bookmark is a `label <https://andbible.readthedocs.io/en/stable/labels.html>`_
+attached to a selection of text, a verse, or a range of verses.
 
-A bookmark can also be added to part of a verse.
-When added to part of a verse, only an icon is visible in other translations.
+When a bookmark is added to an entire verse (or range of verses), the bookmark will
+be visible in all other translations. Bookmarks applied to only a selection of text
+will, however, only be visible as an icon in other translations.
 
-Multiple labels can be added to a single bookmark. Multiple bookmarks can be added to the same verse.
-The verse action dialog shows all bookmarks for that verse, not just the bookmark clicked on.
+Multiple `labels <https://andbible.readthedocs.io/en/stable/labels.html>`_ can
+be added to a single bookmark and multiple bookmarks can be added to a single
+verse. The verse action dialog shows all bookmarks for that verse, not only the
+selected bookmark.
 
 .. raw:: html
 
@@ -21,25 +24,32 @@ The verse action dialog shows all bookmarks for that verse, not just the bookmar
 
 Creating a bookmark
 -------------------
-A bookmark is created by adding a label to a verse.
+To create a bookmark:
 
-1. Click the verse you want to bookmark.
-2. Push the `Bookmark` button.
-3. Choose a label.
+1. Click on the verse you want to bookmark.
+2. In the verse action dialog, Click the `Bookmark` button.
+3. Optionally, add `labels <https://andbible.readthedocs.io/en/stable/labels.html>`_
+   to your bookmark.
 
-A bookmark can also be added to part of a verse.
+To add a bookmark to part of a verse:
 
 1. Click and hold on a word that you want to bookmark.
-2. Extend the highlight as required.
-3. Choose `Selection` or `Bookmark > Selection` (the text displayed is controlled by the 'One-step bookmarking' application preference). Choosing `Verses` labels the whole verse.
-4. Find or add new labels by clicking on the `Select or edit labels...` button.
+2. Extend the text selection as required.
+3. Choose `Selection` or `Bookmark > Selection` (the options displayed are
+   controlled by the 'One-step bookmarking' application preference).
+   Choosing `Verses` bookmarks the whole verse.
+4. Optionally, add `labels <https://andbible.readthedocs.io/en/stable/labels.html>`_
+   to the bookmark.
 
-A bookmark can also be added to multiple verses.
+To add a bookmark to multiple verses:
 
 1. Click the first verse you want to bookmark.
-2. Click the `Plus` button in the upper right of the verse action dialog box. The following verse is automatically selected.
-3. Click on additional verses if needed.  To deselect a verse you have added, click the verse the comes before it.
-4. Push the `Bookmark` button and select a label.
+2. Click the `Plus` (+) button in the upper right of the verse action dialog.
+   The following verse is automatically selected.
+3. Click on a later verse to extend the verse range.  To shorten the range,
+   Click any verse in the existing range and the range will end at that verse.
+4. Click the `Bookmark` button and optionally select a
+   `label <https://andbible.readthedocs.io/en/stable/labels.html>`_.
 
 .. raw:: html
 
@@ -49,22 +59,24 @@ A bookmark can also be added to multiple verses.
 
 Deleting a bookmark
 -------------------
-A bookmark is deleted from the verse action dialog box.
+To delete a bookmark:
 
 1. Click the verse containing the bookmark you want to delete.
-2. The verse action dialog shows all bookmarks for that verse, not just the bookmark clicked on.
+2. The verse action dialog shows all bookmarks for the selected verse,
+   not just the bookmark clicked on.
 3. Click the trash can icon inside the bookmark you wish to delete.
-4. Confirm deletion.
+4. Click `Yes` to confirm deletion.
 
-Editing a bookmark
--------------------
-To do.
+Changing a bookmark's icon
+--------------------------
+To change a bookmark's icon:
 
-Notes
------
-* Edit the labels assigned to a bookmark by clicking on an existing label.
-* A bookmark can have more than one label.
-* The colour used for the highlight is indicated by the 'Main Label' icon.
-* Change the 'Main Label' by clicking on a different label.
-* Remove a label by clicking on it twice.
+1. Click the verse containing the bookmark you want to change.
+2. Click the 'icons' button inside the bookmark you want to change.
+3. Choose a new icon for your bookmark. This icon will be displayed at the end
+   of the bookmarked verse (or text).
 
+Labels
+------
+To learn more about adding labels to your bookmarks, see:
+`Labels <https://andbible.readthedocs.io/en/stable/labels.html>`_.
