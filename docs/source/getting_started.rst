@@ -4,56 +4,81 @@ Getting Started
 Installation
 ------------
 
-There are four main ways to install |app| on an Android phone. You can install |app|
-using the Google Play Store, F-Droid, the Amazon App Store and directly from the Releases section of our GitHub source code repository.
+There are a number of different ways to install |app| on an Android phone.
+You can install |app| using the
+`Google Play Store <https://play.google.com/store/apps/details?id=net.bible.android.activity>`_,
+`F-Droid <https://f-droid.org/packages/net.bible.android.activity/>`_,
+the `Amazon App Store <http://www.amazon.com/Martin-Denham-And-Bible/dp/B004Z2KKYK>`_,
+and directly from the `Releases section of our GitHub <https://github.com/AndBible/and-bible/releases/latest>`_
+source code repository.
 
-Google Play Store
------------------
-
-.. image:: /images/google-play-badge.png
-   :width: 200
+.. image:: /images/google_play_badge.png
+   :height: 50
    :target: https://play.google.com/store/apps/details?id=net.bible.android.activity
 
-Click the image above to get the app from the Google Play store.
 
-F-Droid
--------
-
-.. image:: /images/f-droid-badge.png
-   :width: 200
+.. image:: /images/f-droid_badge.png
+   :height: 50
    :target: https://f-droid.org/packages/net.bible.android.activity/
 
-Click the image above to get the app from F-Droid.
-
-Amazon App Store
-----------------
-
-.. image:: /images/amazon-badge.png
-   :width: 200
+.. image:: /images/amazon_badge.png
+   :height: 50
    :target: http://www.amazon.com/Martin-Denham-And-Bible/dp/B004Z2KKYK
 
-Click the image above to get the app from the Amazon App Store.
-
-GitHub Releases
----------------
-
-.. image:: /images/obtainium-badge.png
-   :width: 200
+.. image:: /images/obtainium_badge.png
+   :height: 50
    :target: https://obtainium.imranr.dev/
 
-Click the image above to get Obtainium which can download (and update)
-the apk from Github. Alternatively, you can download and install the
-apk directly from the "Assets" sub-menu in the
-`GitHub Releases <https://github.com/AndBible/and-bible/releases/latest>`_
+Note: An apk downloaded directly from the "Assets" sub-menu of the Github Releases
+will not automatically update. You can use a tool like `Obtainium <https://obtainium.imranr.dev/>`_
+to download (and update) the apk from Github.
 
-(Note: An apk downloaded directly from Github will not automatically update)
+Linux setup
+-----------
+
+#. `Install Waydroid <https://docs.waydro.id/usage/install-on-desktops>`_
+#. Run Waydroid and install GAPPS version of Android
+   (The GAPPS version is required to update WebView and for Google Drive sync).
+#. `Set up Play Services <https://docs.waydro.id/faq/google-play-certification>`_.
+#. `Disable the on-screen keyboard <https://docs.waydro.id/faq/disable-on-screen-keyboard>`_.
+#. Install / Upgrade `WebView <https://play.google.com/store/apps/details?id=com.google.android.webview>`_
+   from Google Play. This fixes some issues.
+#. Install `Google Speech Services <https://play.google.com/store/apps/details?id=com.google.android.tts>`_
+   from Google Play (if you want to use Text to Speech).
+#. Install `Google Drive <https://play.google.com/store/apps/details?id=com.google.android.apps.docs>`_
+   from Google Play (not needed for Google Drive sync, but you might need it if
+   you have stored any document backups etc in Google Drive).
+#. Install AndBible with your preferred method (See: `Installation`_).
+
+Notes:
+
+   * You can integrate Waydroid with The Linux desktop:
+
+     #. Set up `multi-window mode <https://docs.waydro.id/usage/waydroid-prop-options>`_.
+     #. Restart your computer.
+     #. AndBible and other apps installed in Wayrdoid should now be visible in the normal application menu.
+
+   * If the clipboard doesn't work between Android and Linux:
+
+     #. Install pyclip (i.e ``sudo pip3 install pyclip``).
+     #. Install wl-clipboard (i.e. ``sudo apt install wl-clipboard``).
+     #. Restart you computer.
+
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/_r5Dz7xCy44" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
 
 Windows 11 setup
------------------
+----------------
 
-** Note: Windows Subsystem for Android has been discontinued as of March 5th, 2025.
+Note: Windows Subsystem for Android has been discontinued as of March 5th, 2025.
+Alternate method for installing on |app| may be Bluestacks or NoxPlayer, but neither
+of these methods are tested or supported.
 
-To run |app| on Windows 11:
+To run |app| on Windows 11 using Windows Subsystem for Android:
 
 This may be a bit technical if you are outside the US and involves
 downloading the Windows Subsystem for Android (WSA),
@@ -61,32 +86,7 @@ running a command to install it, starting Windows Subsystem for Android,
 enabling developer mode, downloading the apk from GitHub releases,
 and installing the app with adb.
 
-Install WSA following these instructions:
- https://www.xda-developers.com/how-to-run-android-apps-on-any-windows-11-pc/
-
-Set up adb:
- https://www.xda-developers.com/install-adb-windows-macos-linux/
-
-Download the APK from GitHub releases:
- https://github.com/AndBible/and-bible/releases/latest
-
-How to sideload apps on WSA:
- https://www.xda-developers.com/how-to-sideload-android-apps-on-windows-11/
-
-Linux setup
------------
-
-See instructions from our Wiki: https://github.com/AndBible/and-bible/wiki/Running-AndBible-on-Linux
-
-Changing the look and feel
---------------------------
-
-You can use the workspace "All Text Options" to change the look and feel of document texts. You can access these options from the kabab menu on the top right (aka three vertical dots).
-Use this menu to adjust various |app| appearance options including font size and type, text and background colors, toggling words of Christ in red, and more.
-
-When using multiple windows, you can use the individual window text options to override current workspace settings. Tap and hold the square window icon at the bottom for the window whose settings you wish to customize.  Choose "Text Options" then "All Text Options".  This will open the menu to configure |app|'s' appearance for that specific window.
-
-.. image:: ./images/multi_window_text_options.png
-
-For things that can not be changed through these menus, like the color of certain texts within a module, e.g. Strong's numbers, you can code the color in the style.css file located within  a zip package. You can use HiSB Bible module to see the structure and placement of this file, it should be located in the modules/texts/ztext/hisb/style directory.
-Once coded you simply use the "Load From Zip" function under Backup/Restore section of the main menu.
+1. `Install Windows Subsystem for Android <https://www.xda-developers.com/how-to-run-android-apps-on-any-windows-11-pc/>`_
+2. `Set up adb <https://www.xda-developers.com/install-adb-windows-macos-linux/>`_
+3. `Download the APK from GitHub releases <https://github.com/AndBible/and-bible/releases/latest>`_
+4. `Side-load apk into Windows Subsystem for Android <https://www.xda-developers.com/how-to-sideload-android-apps-on-windows-11/>`_
