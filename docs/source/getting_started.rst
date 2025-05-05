@@ -9,7 +9,7 @@ You can install |app| using the
 `Google Play Store <https://play.google.com/store/apps/details?id=net.bible.android.activity>`_,
 `F-Droid <https://f-droid.org/packages/net.bible.android.activity/>`_,
 the `Amazon App Store <http://www.amazon.com/Martin-Denham-And-Bible/dp/B004Z2KKYK>`_,
-and directly from the `Releases section of our GitHub <https://github.com/AndBible/and-bible/releases/latest>`_
+or directly from the `Releases section of our GitHub <https://github.com/AndBible/and-bible/releases/latest>`_
 source code repository.
 
 .. image:: /images/google_play_badge.png
