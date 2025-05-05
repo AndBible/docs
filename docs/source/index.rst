@@ -25,6 +25,7 @@ Contents
    customisation/index
    documents
    labels
+   look_and_feel
    navigation
    notes
    reading_plans
