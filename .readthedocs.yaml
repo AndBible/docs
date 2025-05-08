@@ -15,14 +15,14 @@ sphinx:
   configuration: docs/source/conf.py  # Path is relative to the location of .readthedocs.yaml file
 
 # Optionally build your docs in additional formats such as PDF and ePub
-formats:
-  - pdf
-  - epub
+#formats:
+#  - pdf
+#  - epub
 
 # Optionally declare the Python requirements required to build your docs
-python:
-  install:
-    - method: pip
-      path: ..
-      extra_requirements:
-        - docs
+#python:
+#  install:
+#    - method: pip
+#      path: ..
+#      extra_requirements:
+#        - docs
