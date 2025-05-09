@@ -4,17 +4,16 @@ Bookmarks
 Overview
 --------
 
-A bookmark is a `label <https://andbible.readthedocs.io/en/stable/labels.html>`_
-attached to a selection of text, a verse, or a range of verses.
+A bookmark is a :doc:`label <labels>` attached to a selection of text, a verse,
+or a range of verses.
 
 When a bookmark is added to an entire verse (or range of verses), the bookmark will
 be visible in all other translations. Bookmarks applied to only a selection of text
 will, however, only be visible as an icon in other translations.
 
-Multiple `labels <https://andbible.readthedocs.io/en/stable/labels.html>`_ can
-be added to a single bookmark and multiple bookmarks can be added to a single
-verse. The verse action dialog shows all bookmarks for that verse, not only the
-selected bookmark.
+Multiple :doc:`labels <labels>` can be added to a single bookmark and multiple bookmarks
+can be added to a single verse. The verse action dialog shows all bookmarks for
+that verse, not only the selected bookmark.
 
 .. raw:: html
 
@@ -28,7 +27,7 @@ To create a bookmark:
 
 1. Click on the verse you want to bookmark.
 2. In the verse action dialog, Click the `Bookmark` button.
-3. Optionally, add `labels <https://andbible.readthedocs.io/en/stable/labels.html>`_
+3. Optionally, add :doc:`labels <labels>`
    to your bookmark.
 
 To add a bookmark to part of a verse:
@@ -38,7 +37,7 @@ To add a bookmark to part of a verse:
 3. Choose `Selection` or `Bookmark > Selection` (the options displayed are
    controlled by the 'One-step bookmarking' application preference).
    Choosing `Verses` bookmarks the whole verse.
-4. Optionally, add `labels <https://andbible.readthedocs.io/en/stable/labels.html>`_
+4. Optionally, add :doc:`labels <labels>`
    to the bookmark.
 
 To add a bookmark to multiple verses:
@@ -48,8 +47,7 @@ To add a bookmark to multiple verses:
    The following verse is automatically selected.
 3. Click on a later verse to extend the verse range.  To shorten the range,
    Click any verse in the existing range and the range will end at that verse.
-4. Click the `Bookmark` button and optionally select a
-   `label <https://andbible.readthedocs.io/en/stable/labels.html>`_.
+4. Click the `Bookmark` button and optionally select a :doc:`label <labels>`.
 
 .. raw:: html
 
