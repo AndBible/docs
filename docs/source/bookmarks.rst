@@ -78,5 +78,4 @@ To change a bookmark's icon:
 
 Labels
 ------
-To learn more about adding labels to your bookmarks, see:
-`Labels <https://andbible.readthedocs.io/en/stable/labels.html>`_.
+To learn more about adding labels to your bookmarks, see :doc:`labels`
