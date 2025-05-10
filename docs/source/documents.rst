@@ -1,65 +1,111 @@
-Document Library
-================
+Documents
+=========
 
 Overview
 --------
 
-Document library contains the list of all Bibles, dictionaries, commentaries, books, and other modules that have been download.
-To access the library tap and hold on the book name on the top left side of the menu bar.
+|app| supports various document modules: `Bibles`_, `Commentaries`_, `Dictionaries`_
+`Books`_, and `Maps`_. You can `Download Documents`_, :doc:`backup_restore`
+documents, and `Load Documents`_ from your device's filesystem.
+
+Document Library
+----------------
+
+The `Document Library` contains the list of all Bibles, commentaries, dictionaries,
+books, and other modules that have been download.
+The `Document Library` can be accessed in a few different ways:
+
+  - Click and hold on the document name on the top of the menu bar.
+  - Click the top left |hamburger| icon and click `Choose Document`.
 
 Bibles
 ------
 
-Bible modules can be downloaded from going to main menu then taping on download documents.
-You can filter the list by selecting bibles for "All Types" or by language.
+Bibles modules can be installed in different languages, translations, and formats.
+Many Bible modules contain Strong's numbers, footnotes, cross-references, and study notes.
 
 Commentaries
 ------------
 
-To do.
+Commentaries contain explanations or interpretations of other Bibles or books.
+Many commentaries will contain interactive Bible references, and can be
+:doc:`navigated <navigation>` like Bible modules.
 
 Dictionaries
 ------------
 
-To install strong's concordance dictionaries tap on the top left on the menu bar then tap on download documents. 
-For "All Types" select Dictionary. From the list tap on StrongsGreek to install then StrongHebrew.
+Dictionaries provide additional information about individual words. |app| supports
+Greek and Hebrew Strong's dictionaries, Robinson's Greek morphology, and others.
 
-To ensure that these dictionaries are used as main lookup for words in Bible modules:
-From menu select application preferences, then tap on Strongs Greek Dictionary and if not selected tap on StrongsGreek.
-Do the same for Strongs Hebrew Dictionary.
+Strong's and Robinson dictionaries can be used as the primary lookup for words
+in Strong's enabled document modules (like KJV, BSB, NASB, NET, etc):
 
-Return to download documents and download KJV Bible module if you have not installed it previously. This module contains Strong's number references.
-From the main Bible window tap and hold on the book name to the right of the menu icon on the top left of the screen.
-From the list of modules select KJV Bible. (You can also get to this screen by going to "Choose Document" in the main left side menu). This will load the current window with this Bible module. (You can also use the NASB or NET version for this purpose)
+#. From the main menu (|hamburger|) click `Application preferences`
+#. Click on `Strong's Greek Dictionary` to select the Strong's Greek dictionary you want to use.
+#. Click on `Strong's Hebrew Dictionary` to select the Strong's Hebrew dictionary you want to use.
+#. Click on `Robinson Greek morphology` to select the Robinson Greek dictionary you want to use.
+#. In the main menu toolbar, click the Greek/Hebrew icon until dotted lines appear
+   below the words.
 
-If you see dotted underlines for words, this means that a strong's no is coded for that word, if you tap on these words the window will display the dictionary definition for that word.
-To display the Strong's numbers in the bible instead of underlines inlines, tap on the Greek or Hebrew icon on the top menu bar. For the books in the Hebrew scriptures this icon shows Hebrew letters and for the books in the New Testaments the icon shows a Greek letter. If you tap on this icon again then no underline or Strong's numbers will display.
+To view the Strong's definition for a word, simply click on a word in a Strong's
+enabled Bible module.
 
-To display the dictionary definitions in a special window:
-From the main menu tap on application preferences then turn on "Links window"
+To display the Strong's numbers in the Bible instead of underlines,
+click on the Greek or Hebrew icon on the top menu bar (For books in Hebrew,
+this icon shows Hebrew letters and for books in Greek the icon shows a Greek letter).
+
+Toggling this icon can show underlines, Strong's numbers, or no links at all.
+
+It is also possible to display the dictionary definitions in a special window
+rather than a pop-up dialog:
+
+  - From the main menu (|hamburger|) click on `Application preferences` and
+    enable the `Links window` option.
 
 
 Books
 -----
 
-To do.
+Various book formats are supported by |app|. Sword modules, MyBible modules, EPUB, and
+|app| :doc:`document backups <backup_restore>` can all be imported from provided
+repositories (Sword) or directly loaded from your device's filesystem (MyBible, Backups).
 
 Maps
 ----
 
-To do.
+Map moudles can be installed through the provided repositories.
 
+Download Documents
+------------------
 
-How to Delete a Module:
-----
+Thousands of different documents can be downloaded from the provided module
+repositories.
+
+To download a document from the provided repositories:
+
+#. Click on the top left menu (|hamburger|).
+#. Click `Download documents`.
+#. Search for, and click on a document to install it.
+
+Load Documents
+--------------
+
+To load a document from your device's filesystem:
+
+#. Click on the top left menu (|hamburger|).
+#. Click `Download documents`.
+#. Click the three vertical dot menu on the right of the top menu bar.
+#. Click `Load Document From Files`.
+#. Click `Proceed` and select a document from your device's file browser.
+
+Deleting Modules
+----------------
 
 To delete any of the above module types:
 
-From the menu bar at the top;
-Tap to Enter menu, then tap on "Choose Document". Optionally you can tap and hold on the book name on the menu bar.
-This will take you to the document screen.
-Choose the type of document to filter by, e.g. Bibles, Maps, etc.
-From the list, tap and hold on the module you want to delete.
-Once highlighted, at the top right corner on the menu bar, tap on the trash can icon.
-Tap "Yes" to confirm delete.
-
+#. From the main menu (|hamburger|), click on "Choose Document".
+   (Alternatively you can click and hold on the book name in the top menu bar.)
+#. Search for the document you want to delete, or filter by the document type.
+#. Click and hold on the document you want to delete.
+#. Once highlighted, click on the trash can icon in the top menu.
+#. Click "Yes" to confirm deletion.

@@ -31,10 +31,10 @@ Heading 4
 Lists
 =====
 
-#. Automatic numbered list
-#. Automatic numbered list again
+#. Automatic numbered list item 1
+#. Automatic numbered list item 2
 
-Bulletd list. Make sure there is a line space between this paragraph and the start of the list.
+Bulleted list. Make sure there is a line space between this paragraph and the start of the list.
 
 - Item a
 - Item b
