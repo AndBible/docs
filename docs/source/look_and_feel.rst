@@ -7,9 +7,10 @@ specific workspaces, specific windows, or even individual modules.
 Application
 -----------
 
-To configure application-wide look and feel settings, navigate to the top left
-main menu (|hamburger|) and click `Application preferences`. Some options that
-you can use to customize the look and feel of the application are:
+To configure application-wide look and feel settings (which are not synced to
+other devices), navigate to the top left main menu (|hamburger|) and click
+`Application preferences`. Some options that you can use to customize the look
+and feel of the application are:
 
     - **Application language:** Choose the language you would like the application
       to use in dialogs, settings, etc.
@@ -18,7 +19,9 @@ you can use to customize the look and feel of the application are:
     - **Disable animations:** Enabling this setting will reduce animations that
       may not work well on e-ink or very old devices.
     - **Font size multiplier:** Changing this setting will scale document text
-      sizes. It can be useful for devices with larger screens.
+      sizes. It can be useful for devices with larger screens. Since application
+      settings are not synced, this can be configured per-device. This setting will
+      multiply the workspace and/or window font size settings (which are synced).
     - **Hide window button bar in fullscreen:** Enabling this setting will hide
       the bottom window buttons when in fullscreen mode - giving you a distraction-free
       fullscreen view.
