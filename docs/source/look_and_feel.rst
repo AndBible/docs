@@ -30,7 +30,8 @@ and feel of the application are:
       buttons in the window button bar at the bottom of the screen to access the
       menu for each window.
     - **Hide Bible reference overlay:** Enabling this setting will hide the Bible
-      reference overlay near the bottom of the screen when in fullscreen mode.
+      reference overlay that would otherwise be displayed near the bottom of the
+      screen when in fullscreen mode.
     - **Show active window indicator:** Enabling this setting will highlight window
       corners of the active window in the reading pane. This makes it easier to see
       which window is the active window.
