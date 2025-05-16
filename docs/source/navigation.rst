@@ -128,3 +128,5 @@ on the book reference section of the top main toolbar:
 .. image:: /videos/workspace_move_to_next.gif
     :alt: Open the workspaces dialog
     :height: 400
+
+For more information about managing workspaces, see :doc:`Workspaces</workspaces>`.
