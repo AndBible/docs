@@ -90,9 +90,14 @@ Module
 For things that can not be changed through application, workspace, or window
 settings, like the color of certain text within a module, e.g. Headings or
 Strong's numbers, you can code the color in the style.css file located within
-the module's zip package. You can use the HiSB Bible module to see the structure
+the module's zip package. You can see some examples of this being implemented here:
+
+  - https://github.com/AndBible/special-modules/tree/master/HISB/modules/texts/ztext/HISB/style
+  - https://github.com/AndBible/special-modules/tree/master/StyleExample/modules/texts/ztext/StyleExample/style
+
+For more details on how to create custom CSS modules, see :doc:`Custom CSS<customisation/custom_css>`
 and placement of this file, it should be located in the `modules/texts/ztext/hisb/style`
 directory.
 
-Once coded, you can follow the steps in :doc:`Backup and Restore</backup_restore>`
-to load your customized module.
+Once the customized module is coded, you can follow the steps in
+:doc:`Backup and Restore</backup_restore>` to load your customized module.
