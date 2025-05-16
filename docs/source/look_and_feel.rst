@@ -25,9 +25,10 @@ and feel of the application are:
     - **Hide window button bar in fullscreen:** Enabling this setting will hide
       the bottom window buttons when in fullscreen mode - giving you a distraction-free
       fullscreen view.
-    - **Hide window buttons:** Enabling this setting will hide the per-window menu
-      buttons. Instead you can use the window button bar at the bottom of the screens
-      to access window menus for each window.
+    - **Hide window buttons:** Enabling this setting will hide the menu buttons
+      that are displayed at the top right of each window. You can long-click the
+      buttons in the window button bar at the bottom of the screen to access the
+      menu for each window.
     - **Hide Bible reference overlay:** Enabling this setting will hide the Bible
       reference overlay near the bottom of the screen when in fullscreen mode.
     - **Show active window indicator:** Enabling this setting will highlight window
