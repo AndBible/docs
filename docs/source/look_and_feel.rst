@@ -16,7 +16,7 @@ you can use to customize the look and feel of the application are:
     - **Black & white mode:** Enabling this setting reduces the use of colors.
       This is useful for e-ink displays.
     - **Disable animations:** Enabling this setting will reduce animations that
-      may not work well on older devices.
+      may not work well on e-ink or very old devices.
     - **Font size multiplier:** Changing this setting will scale document text
       sizes. It can be useful for devices with larger screens.
     - **Hide window button bar in fullscreen:** Enabling this setting will hide
