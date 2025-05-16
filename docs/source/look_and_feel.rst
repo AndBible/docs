@@ -78,8 +78,12 @@ options to override current workspace settings. To change window text options:
        like to customize.
     #. Click `Text Options`, then click `All Text Options`.
 
-All of the same options that you could configure in `Workspace`_ can now be configured
-for the selected window:
+All of the same options that you could configure in `Workspace`_ can be overridden
+for the selected window. In the screenshot below you can see that the window
+`Color settings` are overriding the workspace `Color settings`. To indicate this,
+there is no workspace icon on the `Color settings` icon). To reset all window
+settings back to the workspace settings, you can click the circular back arrow
+at the top right of the window settings screen.
 
 .. image:: ./images/window_appearance.png
     :align: center
