@@ -90,3 +90,19 @@ and installing the app with adb.
 2. `Set up adb <https://www.xda-developers.com/install-adb-windows-macos-linux/>`_
 3. `Download the APK from GitHub releases <https://github.com/AndBible/and-bible/releases/latest>`_
 4. `Side-load apk into Windows Subsystem for Android <https://www.xda-developers.com/how-to-sideload-android-apps-on-windows-11/>`_
+
+Mirroring (and using) |app| on any Computer
+-------------------------------------------
+
+Using a tool like `scrcpy <https://github.com/Genymobile/scrcpy>`_ it is possible
+to display your |app| on any desktop or laptop computer (Windows, MacOS, or Linux).
+
+#. `Enable USB Debugging <https://developer.android.com/studio/debug/dev-options#enable>`_
+   on your Android phone.
+#. Connect your phone to your computer via USB cable (wireless connections are
+   also possible - see the `scrcpy documentation
+   <https://github.com/Genymobile/scrcpy/blob/master/doc/connection.md#connection>`_)
+#. Install and run scrcpy using the official instructions for `Windows
+   <https://github.com/Genymobile/scrcpy/blob/master/doc/windows.md>`_, `MacOS
+   <https://github.com/Genymobile/scrcpy/blob/master/doc/macos.md>`_, or `Linux
+   <https://github.com/Genymobile/scrcpy/blob/master/doc/linux.md>`_.
