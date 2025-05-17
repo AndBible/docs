@@ -85,6 +85,15 @@ To open a document, click on either the Bible or Books icons in the top navigati
 Note: This will open the document in the currently active window. To open a
 document in a new window, see :doc:`Windows</windows>`.
 
+The Bible and books toolbar buttons can also be customized. To customize the
+actions, to to the top left main menu (|hamburger|) and click `Application
+Preferences`. Click `Action for toolbar button press` to configure the custom
+button actions:
+
+  - Press to open menu, long press for documents screen (default)
+  - Press to open next document, long press to open document menu (list of documents)
+  - Press to open next document, long press to open documents screen
+
 Closing Documents
 ^^^^^^^^^^^^^^^^^
 To close a document, click the |hamburger| menu at the top right of the document
