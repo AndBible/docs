@@ -15,18 +15,18 @@ you prefer.
 
 Alternatively, you can reach out to our development team via
 `email help.andbible@gmail.com <mailto:help.andbible@gmail.com>` or
-`Github <https://github.com/AndBible/and-bible/issues/new/choose>`
+`GitHub <https://github.com/AndBible/and-bible/issues/new/choose>`
 
 Reporting Issues
 ****************
 Please report bugs primarily via ``Main menu > report bug``. Reporting bugs This
 way gives us more information when trying to fix the issue. You can also report
-bugs directly via `Github Issues <https://github.com/AndBible/and-bible/issues/new/choose>`_.
+bugs directly via `GitHub Issues <https://github.com/AndBible/and-bible/issues/new/choose>`_.
 
 Feature Requests
 ****************
 If you would like to request a specific feature, please request the feature via
-`Github <https://github.com/AndBible/and-bible/issues/new/choose>`_. When requesting,
+`GitHub <https://github.com/AndBible/and-bible/issues/new/choose>`_. When requesting,
 please describe the feature clearly.
 
 Tutorial Videos
