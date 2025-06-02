@@ -32,7 +32,7 @@ please describe the feature clearly.
 Tutorial Videos
 ***************
 
-The following video playlists from our yourube channel will help you get better
+The following video playlists from our YouTube channel will help you get better
 grasp of |app| features.
 
 To view all the videos in the playlist, click the |hamburger| menu at the
