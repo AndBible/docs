@@ -38,4 +38,5 @@ Contents
    windows
    workspaces
    note_add_to_existing_bookmark
+   support
 
