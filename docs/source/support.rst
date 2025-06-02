@@ -19,8 +19,8 @@ Alternatively, you can reach out to our development team via
 
 Reporting Issues
 ****************
-Please report bugs primarily via ``Main menu > report bug``. Reporting bugs This
-way gives us more information when trying to fix the issue. You can also report
+Please report bugs via the `Feedback / bug report` option in the top left main menu (|hamburger|)
+Reporting bugs through the app provides us with more information to fix the issue. You can also report
 bugs directly via `GitHub Issues <https://github.com/AndBible/and-bible/issues/new/choose>`_.
 
 Feature Requests
