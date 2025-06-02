@@ -59,9 +59,9 @@ visible in the document and will only be visible on the study pad.
    icon to add a note.
 
 This note will `not` be linked to a specific document or verse.
-The note re-located in the study pad by clicking the three-dot menu next to the
-note and dragging the up/down arrows to the position in the study pad where you
-would like to locate the note.
+The note can be re-located in the study pad by clicking the three-dot menu next
+to the note and dragging the up/down arrows to the position in the study pad
+where you would like to locate the note.
 
   .. image:: ./images/study_pad_notes.png
     :align: left
@@ -110,8 +110,8 @@ Editing a note
 To edit a note, simply :ref:`view a note<notes:viewing an individual note:>`
 and click into the note to start editing. When editing a note, changes are saved automatically.
 
+Notes support rich formatting similar to word processing applications.
 
-Notes support rich formatting similar to a normal document.
 To add a Bible reference link:
 
   - Click the Bible icon and type a Bible reference.
