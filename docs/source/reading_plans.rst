@@ -81,7 +81,7 @@ It is possible to create your own custom reading plan for use with |app|.
 .. note::
 
     If you create a reading plan that you think would be useful for other |app| users,
-    feel free to share it in our `Matrix <https://matrix.to/#/#andbible:matrix.org>`_
+    feel free to share it in our :ref:`Matrix or Telegram <support:General Questions>`
     chat!
 
 The .zip Reading Plan Format
