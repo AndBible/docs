@@ -14,8 +14,8 @@ These groups are bridged together (connected), so you can choose which platform
 you prefer.
 
 Alternatively, you can reach out to our development team via
-`email help.andbible@gmail.com <mailto:help.andbible@gmail.com>` or
-`GitHub <https://github.com/AndBible/and-bible/issues/new/choose>`
+`email <mailto:help.andbible@gmail.com>`_ or
+`GitHub <https://github.com/AndBible/and-bible/issues/new/choose>`_
 
 Reporting Issues
 ****************
