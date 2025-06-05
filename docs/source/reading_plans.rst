@@ -211,27 +211,3 @@ Example reading plans can be found
 
     A full list of OSIS book names can be found
     `here <https://wiki.crosswire.org/OSIS_Book_Abbreviations>`_.
-
-.. caution::
-
-    Using an Android version older than 10?
-
-    If you are creating a reading plan to be used on an Android device older than
-    version 10, **and** you plan to include deuterocanonical books in your reading
-    plan, you must specify the versification in the :code:`.properties` file:
-
-    .. code-block::
-
-        Versification=Vulg
-        1=Sir.1-Sir.2
-        2=1Macc.1-1Macc.2
-        3=Bar.1-Bar.2
-
-    The default versification for reading plans is `KJV`.
-
-.. note::
-    Beginning in version 4.0, the :code:`jsword/readingplan` module format for
-    reading plans is deprecated for use with Android 10+ since the :code:`jsword/readingplan`
-    path no longer works on Android 10+. The new :code:`.zip` format (described above)
-    can be imported like any other |app| module.
-
