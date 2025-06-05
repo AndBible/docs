@@ -50,28 +50,20 @@ will bring you to `Daily Reading` screen for that specific day.
 Changing Reading Plan Start Date
 --------------------------------
 
-If you started the readings on a previous day and have just switched to |app|,
-then select the vertical 3-dot menu from the `Daily Reading` screen and
-click `Set Start Date...` to pick a specific start date or click `Set as current day...`
-to set the start date of the reading plan to today's date.
+To set the start date of a reading plan, select the vertical 3-dot menu from
+the `Daily Reading` screen and click `Set Start Date...` to pick a specific
+start date.
 
 Set Specific Reading Plan Day to Today's Date
 ---------------------------------------------
 
-This is useful if you have been reading outside of |app|. To
-move the current reading plan day to today's date:
+This is useful if you started reading on a previous day and have just switched
+to |app|. To update the current reading plan day to today's date:
 
 #. Open the `Daily Reading` screen for the reading plan you would like to adjust
 #. Go to the specific day of the reading plan you want to set to today's date.
 #. Click the top right 3-dot menu
 #. Click `Set as current day`.
-
-.. note::
-
-    For |app| Versions 3.3 and earlier: Go to the day prior to the desired day
-    as described above, click  `Menu -> Done` (not the normal Done button at the bottom)
-    this bypasses checks and marks the current day as Done and the next day will become
-    the current day.
 
 Custom Reading Plans
 ====================
