@@ -4,6 +4,9 @@
 
 version: 2
 
+# Build documentation in a variety of file formats (epub can be imported into AndBible)
+formats: all
+
 # Set the OS, Python version and other tools you might need
 build:
   os: ubuntu-22.04
@@ -12,12 +15,7 @@ build:
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
-  configuration: docs/source/conf.py  # Path is relative to the location of .readthedocs.yaml file
-
-# Optionally build your docs in additional formats such as PDF and ePub
-#formats:
-#  - pdf
-#  - epub
+  configuration: docs/source/conf.py # Path is relative to the location of .readthedocs.yaml file
 
 # Optionally declare the Python requirements required to build your docs
 python:
