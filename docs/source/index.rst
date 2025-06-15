@@ -30,7 +30,7 @@ Contents
    notes
    reading_plans
    releases/index
-   searching
+   search
    speak
    study_pads
    usage
