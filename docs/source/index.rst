@@ -31,6 +31,7 @@ Contents
    reading_plans
    releases/index
    search
+   share
    speak
    study_pads
    usage
