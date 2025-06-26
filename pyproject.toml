@@ -5,7 +5,7 @@ build-backend = "flit_core.buildapi"
 [project]
 name = "AndBible Documentation"
 maintainers = [
-    { name = "Tuomas Airaksinen", email = "tuomas.airaksinen@gmail.com" },
+    { name = "Tuomas Airaksinen", email = "help.andbible@gmail.com" },
 ]
 dynamic = ["version", "description"]
 readme = "README.rst"
