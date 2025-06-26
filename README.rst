@@ -2,7 +2,7 @@ AndBible Documentation
 ######################
 
 This is the official documentation for the AndBible app. The web-viewable
-version of this documenation can be found at `AndBible.org`_.
+version of this documentation can be found at `AndBible.org`_.
 
 ⚙️ ReadtheDocs Configuration
 ****************************
