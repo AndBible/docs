@@ -1,16 +1,16 @@
-Verse Action dialog
+Verse Action Dialog
 ===================
 
 Bookmark
 --------
 
-The bookmark icon creates a new bookmark and displays the Quick Label selector. 
+The bookmark icon creates a new bookmark and displays the Quick Label selector.
 See :ref:`Adding a bookmark <bookmarks:Creating a bookmark>` for more information.
 
 Note
 ----
 
-The note icon creates a new bookmark with the 'Unlabeled' label and opens the Notes window. 
+The note icon creates a new bookmark with the 'Unlabeled' label and opens the Notes window.
 You can immediately start entering your note or click the 'Unlabeled' tag at the top of the dialog to change the label.
 See :ref:`Creating a note <notes:Creating a note>` for more information.
 
