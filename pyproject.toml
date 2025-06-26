@@ -3,6 +3,18 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "lumache"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
+name = "AndBible Documentation"
+maintainers = [
+    { name = "Tuomas Airaksinen", email = "help.andbible@gmail.com" },
+]
 dynamic = ["version", "description"]
+readme = "README.rst"
+keywords = ["AndBible", "app", "android", "documentation"]
+
+[project.urls]
+Homepage = "https://andbible.org"
+Documentation = "https://docs.andbible.org"
+Repository = "https://github.com/AndBible/and-bible.git"
+Issues = "https://github.com/AndBible/and-bible/issues"
+Sponsor = "https://shop.tuomasairaksinen.fi/"
+Download = "https://github.com/AndBible/and-bible/releases"

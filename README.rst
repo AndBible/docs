@@ -1,25 +1,29 @@
-Template for the Read the Docs tutorial
-=======================================
+AndBible Documentation
+######################
 
-The ReadTheDocs project can be found here:
-https://readthedocs.org/projects/andbible/
+This is the official documentation for the AndBible app. The web-viewable
+version of this documentation can be found at `AndBible.org`_.
 
-Read the tutorial here:
-https://docs.readthedocs.io/en/stable/tutorial/
+⚙️ ReadtheDocs Configuration
+****************************
+We are using the `Sphinx <https://sphinx-rtd-theme.readthedocs.io/en/stable/>`_
+theme.
 
-Convert from github MD to RST:
-https://cloudconvert.com/md-to-rst
+The official `readthedocs tutorial <https://docs.readthedocs.io/en/stable/tutorial/>`_
+gives a good overview of the basic configuration options.
 
-The theme we are using:
-https://sphinx-rtd-theme.readthedocs.io/en/stable/ 
+To get more familiar with restructured text, see the following helpful style guides:
 
-Helpful style guides:
-https://sublime-and-sphinx-guide.readthedocs.io/en/latest/index.html
-https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html#inline-markup-and-special-characters-e-g-bold-italic-verbatim
-https://labs.bilimedtech.com/workshops/rst/writing-rst-3.html
+   - https://sublime-and-sphinx-guide.readthedocs.io/en/latest/index.html
+   - https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html#inline-markup-and-special-characters-e-g-bold-italic-verbatim
+   - https://labs.bilimedtech.com/workshops/rst/writing-rst-3.html
 
-RST Manual:
-https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#substitutions
+Also see our own style guide in ``source/style_guide.rst``.
 
-Conf file options:
-https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-rst_prolog 
+🤝 Contributions
+****************
+To contribute to this documentation:
+
+#. `Make a fork of this repository <https://github.com/AndBible/docs/fork>`_
+#. Make your changes in your fork of this repository
+#. `Create a pull request via Github <https://github.com/AndBible/docs/compare>`_
