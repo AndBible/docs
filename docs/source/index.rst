@@ -26,6 +26,7 @@ Contents
    documents
    labels
    look_and_feel
+   memorize
    navigation
    notes
    reading_plans

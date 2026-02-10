@@ -24,6 +24,12 @@ Share
 
 The Share icon allows you to copy or share the highlighted verses. See :doc:`Sharing Verses <share>` for more information.
 
+Memorize
+--------
+
+The Memorize button opens an interactive view for learning the selected verses by heart.
+See :doc:`Memorize <memorize>` for more information.
+
 Comparing verses
 ----------------
 
