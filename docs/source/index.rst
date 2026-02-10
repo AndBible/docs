@@ -6,7 +6,7 @@ and flexible interface for studying the Bible.
 
 * `Github Repository <https://github.com/AndBible/and-bible>`_
 * `Webpage <https://andbible.github.io/>`_
-* `FAQ <https://github.com/AndBible/and-bible/wiki/FAQ>`_
+* :doc:`faq`
 
 .. note::
 
@@ -21,9 +21,13 @@ Contents
 
    getting_started
    backup_restore
+   bible_links
    bookmarks
+   custom_repositories
    customisation/index
+   discrete_build
    documents
+   faq
    labels
    look_and_feel
    memorize
@@ -39,6 +43,5 @@ Contents
    verse_action_dialog
    windows
    workspaces
-   note_add_to_existing_bookmark
+   videos/note_add_to_existing_bookmark
    support
-

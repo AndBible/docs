@@ -56,13 +56,13 @@ Notes:
 
      #. Set up `multi-window mode <https://docs.waydro.id/usage/waydroid-prop-options>`_.
      #. Restart your computer.
-     #. AndBible and other apps installed in Wayrdoid should now be visible in the normal application menu.
+     #. AndBible and other apps installed in Waydroid should now be visible in the normal application menu.
 
    * If the clipboard doesn't work between Android and Linux:
 
      #. Install pyclip (i.e ``sudo pip3 install pyclip``).
      #. Install wl-clipboard (i.e. ``sudo apt install wl-clipboard``).
-     #. Restart you computer.
+     #. Restart your computer.
 
 
 .. raw:: html
@@ -74,22 +74,12 @@ Notes:
 Windows 11 setup
 ----------------
 
-Note: Windows Subsystem for Android has been discontinued as of March 5th, 2025.
-Alternate method for installing on |app| may be Bluestacks or NoxPlayer, but neither
-of these methods are tested or supported.
+.. note::
+   Windows Subsystem for Android (WSA) has been discontinued as of March 5th, 2025.
 
-To run |app| on Windows 11 using Windows Subsystem for Android:
-
-This may be a bit technical if you are outside the US and involves
-downloading the Windows Subsystem for Android (WSA),
-running a command to install it, starting Windows Subsystem for Android,
-enabling developer mode, downloading the apk from GitHub releases,
-and installing the app with adb.
-
-1. `Install Windows Subsystem for Android <https://www.xda-developers.com/how-to-run-android-apps-on-any-windows-11-pc/>`_
-2. `Set up adb <https://www.xda-developers.com/install-adb-windows-macos-linux/>`_
-3. `Download the APK from GitHub releases <https://github.com/AndBible/and-bible/releases/latest>`_
-4. `Side-load apk into Windows Subsystem for Android <https://www.xda-developers.com/how-to-sideload-android-apps-on-windows-11/>`_
+Alternative methods for running |app| on Windows include using Android emulators such as
+`Bluestacks <https://www.bluestacks.com/>`_ or `NoxPlayer <https://www.bignox.com/>`_,
+but these are not tested or officially supported.
 
 Mirroring (and using) |app| on any Computer
 -------------------------------------------
