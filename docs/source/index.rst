@@ -23,6 +23,7 @@ Contents
    backup_restore
    bible_links
    bookmarks
+   cloud_sync
    custom_repositories
    customisation/index
    discrete_build
