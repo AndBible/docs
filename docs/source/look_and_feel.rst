@@ -53,7 +53,7 @@ Various appearance options can be changed:
     - Color Settings
         - Workspace color
         - Text color
-        - Backgorund color & Background noise
+        - Background color & Background noise
     - Font size
     - Font family
     - Margin size

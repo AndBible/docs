@@ -80,7 +80,7 @@ To open a document, click on either the Bible or Books icons in the top navigati
 
   - Clicking on the Bible icon will show a list of installed Bibles that you can open.
   - Clicking on the Books icon will show a list of other installed documents you can open (
-    i.e. Comentaries, Dictionaries, Generic books, etc).
+    i.e. Commentaries, Dictionaries, Generic books, etc).
 
 Note: This will open the document in the currently active window. To open a
 document in a new window, see :doc:`Windows</windows>`.

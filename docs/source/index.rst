@@ -39,6 +39,6 @@ Contents
    verse_action_dialog
    windows
    workspaces
-   note_add_to_existing_bookmark
+   videos/note_add_to_existing_bookmark
    support
 

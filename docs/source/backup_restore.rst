@@ -52,6 +52,11 @@ To restore your |app| data:
    filetypes.
 #. Select the zipped backup file on your device to restore your |app| data.
 
+.. note::
+   Since version 5.0, you can choose exactly what to restore from a database
+   backup — for example, only bookmarks or only workspaces — rather than
+   restoring everything at once.
+
 To restore you |app| apk file:
 
 #. Locate the .apk file you previously backed up.

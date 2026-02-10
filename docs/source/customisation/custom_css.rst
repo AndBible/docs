@@ -107,5 +107,5 @@ See
 Want a ready-made custom CSS module?
 ------------------------------------
 Tuomas can make it. For most customisation, it takes usually 30 minutes of work
-(see `pricing <https://shop.tuomasairaksinen.fi/page/info>`_). You can ask for a
+(see `pricing <https://shop.andbible.org/page/info>`_). You can ask for a
 quote via `email <mailto:help.andbible@gmail.com>`_.

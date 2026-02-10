@@ -1,7 +1,7 @@
 Release 4.1
 ===========
 
-Release Date: **To Be Advised - hopefully early 2022**
+Release Date: **2022**
 
 Major new features and improvements. 
 ------------------------------------

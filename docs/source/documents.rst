@@ -4,7 +4,7 @@ Documents
 Overview
 --------
 
-|app| supports various document modules: `Bibles`_, `Commentaries`_, `Dictionaries`_
+|app| supports various document modules: `Bibles`_, `Commentaries`_, `Dictionaries`_,
 `Books`_, and `Maps`_. You can `Download Documents`_, :doc:`backup_restore`
 documents, and `Load Documents`_ from your device's filesystem.
 
@@ -67,14 +67,20 @@ rather than a pop-up dialog:
 Books
 -----
 
-Various book formats are supported by |app|. Sword modules, MyBible modules, EPUB, and
+Various book formats are supported by |app|. Sword modules, EPUB, and
 |app| :doc:`document backups <backup_restore>` can all be imported from provided
-repositories (Sword) or directly loaded from your device's filesystem (MyBible, Backups).
+repositories (Sword) or directly loaded from your device's filesystem.
+
+Since version 5.0, |app| also supports ePub digital books, which can be loaded from
+your device's filesystem and read as generic books.
+
+There is also experimental support for MyBible and MySword format modules, which can
+be loaded from your device's filesystem.
 
 Maps
 ----
 
-Map moudles can be installed through the provided repositories.
+Map modules can be installed through the provided repositories.
 
 Download Documents
 ------------------
