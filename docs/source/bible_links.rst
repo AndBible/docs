@@ -27,17 +27,17 @@ tap the window menu and select ``Copy link to clipboard``.
 Examples
 --------
 
-* ``https://read.andbible.org/1Sam.1.2?document=FinRK&v11n=KJV``
-* ``https://read.andbible.org/1Sam.1.2?document=FinRK``
-* ``https://read.andbible.org/1Sam.1.2?v11n=KJV``
-* ``https://read.andbible.org/1Sam.1.2-1Sam1.5?v11n=KJV``
+* `https://read.andbible.org/1Sam.1.2?document=FinRK&v11n=KJV <https://read.andbible.org/1Sam.1.2?document=FinRK&v11n=KJV>`_
+* `https://read.andbible.org/1Sam.1.2?document=FinRK <https://read.andbible.org/1Sam.1.2?document=FinRK>`_
+* `https://read.andbible.org/1Sam.1.2?v11n=KJV <https://read.andbible.org/1Sam.1.2?v11n=KJV>`_
+* `https://read.andbible.org/1Sam.1.2-1Sam1.5?v11n=KJV <https://read.andbible.org/1Sam.1.2-1Sam1.5?v11n=KJV>`_
 
 Alternative Link Formats (non-Google builds only)
 --------------------------------------------------
 
 In non-Google builds, |app| also supports StepBible.org links:
 
-``https://stepbible.org?q=reference=Gen.1.1|version=FinRK&v11n=KJV``
+`https://stepbible.org?q=reference=Gen.1.1|version=FinRK&v11n=KJV <https://stepbible.org?q=reference=Gen.1.1|version=FinRK&v11n=KJV>`_
 
 The ``v11n`` parameter is not supported by StepBible but can be used when
 targeting |app|. The ``version`` (document) parameter is supported by StepBible
@@ -45,7 +45,7 @@ if their version name matches the |app| document name.
 
 Bible.com links are also supported:
 
-``https://www.bible.com/fi/bible/1745/1SA.13.FINRK``
+`https://www.bible.com/fi/bible/1745/1SA.13.FINRK <https://www.bible.com/fi/bible/1745/1SA.13.FINRK>`_
 
 Enabling the Feature
 --------------------
