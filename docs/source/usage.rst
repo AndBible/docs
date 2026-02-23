@@ -13,7 +13,7 @@ Bible Study
 
 Open a Bible in one window and a commentary in another using :doc:`windows`.
 Enable synchronized scrolling so the commentary follows your Bible reading.
-Use the :doc:`verse_action_dialog` to quickly look up cross-references and
+Use :ref:`cross-references` to discover related passages and
 add :doc:`bookmarks` with :doc:`notes` as you study.
 
 Topical Study

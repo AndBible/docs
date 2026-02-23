@@ -25,6 +25,39 @@ Bibles
 Bibles modules can be installed in different languages, translations, and formats.
 Many Bible modules contain Strong's numbers, footnotes, cross-references, and study notes.
 
+.. _cross-references:
+
+Cross-References
+^^^^^^^^^^^^^^^^
+
+Cross-references link related Bible passages together, helping you discover
+connections across Scripture.
+
+**Built-in cross-references**
+
+Many Bible modules (such as KJV, ESV, and others) already contain cross-reference
+data. To display them:
+
+#. Open the text options for your window or workspace (via the popup menu or the
+   kebab menu).
+#. Enable **Cross references** to show cross-reference indicators in the text.
+#. Optionally enable **Expand cross references** to display the references inline
+   rather than in a popup dialog.
+
+When enabled, cross-references appear as small orange superscript markers in the
+Bible text. Tap a marker to open a dialog listing the related passages. If inline
+expansion is enabled, the references are shown directly in the text instead.
+
+**Treasury of Scripture Knowledge (TSK)**
+
+For comprehensive cross-references covering every verse in the Bible, install the
+**TSK** (Treasury of Scripture Knowledge) or **TSKe** (extended edition) module:
+
+#. From the top left main menu (|hamburger|), click ``Download documents``.
+#. Search for **TSK** and install the module.
+#. Open TSK in a separate window (see :doc:`windows`) or use the links window to
+   view cross-references alongside your Bible text.
+
 Commentaries
 ------------
 
