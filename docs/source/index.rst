@@ -20,6 +20,7 @@ Contents
     :caption: Contents:
 
    getting_started
+   ai
    backup_restore
    bible_links
    bookmarks
