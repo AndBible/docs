@@ -29,6 +29,7 @@ Contents
    customisation/index
    discrete_build
    documents
+   experimental_features
    faq
    labels
    look_and_feel
