@@ -33,6 +33,7 @@ Contents
    labels
    look_and_feel
    memorize
+   my_documents
    navigation
    notes
    reading_plans
