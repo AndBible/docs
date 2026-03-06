@@ -15,8 +15,9 @@ Workspaces remember:
 
 * the current bible references
 * the window arrangement
-* colors 
+* colors
 * fonts
+* label display style overrides (see :ref:`labels:Override Label Style per Workspace`)
 * and most other window settings
 
 Access the list of workspaces via the 'dot' menu or by swiping down on the verse selector. This list allows you to:

@@ -71,6 +71,35 @@ label easier. You can:
      (The `main label` is the label that is listed first and determines the style
      of the bookmark)
 
+Override Label Style per Workspace
+----------------------------------
+
+By default, a label's display style (highlight, underline, marker, or hidden)
+is the same across all workspaces. You can override the display style for a
+specific workspace so that the same label appears differently depending on
+which workspace you are in.
+
+For example, you might want a label to show as a colored highlight in your
+study workspace but be hidden in your reading workspace.
+
+To set a workspace-specific style override:
+
+1. `Open Label settings`_
+2. Click the label you want to override.
+3. Scroll down to the **This workspace** section.
+4. Under **Override style**, select the desired display mode:
+
+   * **Highlight** — colored background
+   * **Underline** — underline style
+   * **Marker only** — small marker icon, no highlight or underline
+   * **Hidden** — bookmark is not visible
+
+   The option that corresponds to the label's global style is marked with
+   *(no override)*. Selecting it removes the workspace override.
+
+Labels that have a workspace-specific override are indicated with a small
+tune icon in the label list.
+
 Video
 -----
 .. raw:: html
