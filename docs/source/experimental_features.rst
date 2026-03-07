@@ -25,8 +25,8 @@ Enabling Experimental Features
 Available Features
 ------------------
 
-LLM Mode (AI Text Processing)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AI Text Processing
+^^^^^^^^^^^^^^^^^^^
 
 When enabled, this feature unlocks the full :doc:`AI assistant <ai>`
 functionality. You must also have a configured AI provider for AI features to
@@ -34,9 +34,9 @@ appear.
 
 Once enabled:
 
-* An **LLM Mode** prompt selector appears in the window's text display settings,
-  allowing you to process entire chapters through AI (e.g. translate or
-  annotate a whole chapter at once).
+* An **AI Text Processing** prompt selector appears in the window's text display
+  settings, allowing you to process entire chapters through AI (e.g. translate
+  or annotate a whole chapter at once).
 * **AI action buttons** appear in verse selection, text selection, and window
   menus.
 

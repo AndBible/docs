@@ -151,10 +151,10 @@ Where Prompts Appear
 AI prompts are available in several places throughout the app. Each prompt is
 configured to appear in the contexts where it is most useful:
 
-**LLM Mode (document display)**
+**AI Text Processing (document display)**
    Process an entire chapter or document through AI. Enable by selecting an
-   LLM Mode prompt in the window's text display settings. The result replaces
-   the document view.
+   AI Text Processing prompt in the window's text display settings. The result
+   replaces the document view.
 
 **Verse selection**
    When you tap a verse and the verse action dialog appears, available AI
@@ -183,11 +183,11 @@ Running a Prompt
 #. Tap the ``Explain Verses`` button.
 #. The AI processes your request and displays the result.
 
-**Example: Using LLM Mode for a whole chapter**
+**Example: Using AI Text Processing for a whole chapter**
 
 #. Long-press the window button at the bottom of the screen.
 #. Tap ``Text Options``, then ``All Text Options``.
-#. Under the LLM Mode section, select a prompt (e.g. ``Translate``).
+#. Under the AI Text Processing section, select a prompt (e.g. ``Translate``).
 #. The entire chapter is processed through the selected prompt.
 
 **Example: Word study on selected text**
