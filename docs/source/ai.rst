@@ -255,6 +255,91 @@ Write tools can create or modify data in your app. They are subject to the
 * **Finish without document** -- End the task without producing a document
   (for action-only prompts that create bookmarks, etc.).
 
+.. tip::
+
+   You can view all available tools and their descriptions directly in the app
+   by opening the **Available tools** menu item in the prompt editor.
+
+
+Available Data and Documents
+----------------------------
+
+The AI agent can access a wide range of data through its tools. Understanding
+what data is available helps you write more effective prompts.
+
+Installed Bible Modules
+^^^^^^^^^^^^^^^^^^^^^^^
+
+The AI has access to **all installed modules** on your device:
+
+* **Bible translations** -- Any installed Bible version (e.g. KJV, ESV, NIV).
+  The AI can read and compare text across multiple translations.
+* **Commentaries** -- All installed commentary modules. The AI can look up
+  commentary entries for specific verses.
+* **Dictionaries and lexicons** -- Including Strong's concordance, Robinson's
+  morphological codes, and any other installed dictionary modules. These
+  allow in-depth word studies.
+
+.. tip::
+
+   The more modules you have installed, the richer data the AI can work with.
+   Installing additional commentaries, dictionaries, and translations gives the
+   AI more resources for answering your questions.
+
+Cross-Referencing Capabilities
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The AI can combine information from multiple sources in a single response:
+
+* **Translation comparison** -- Compare how different Bible versions render
+  the same passage.
+* **Commentary + dictionary integration** -- Read a verse, look up commentary,
+  then look up individual words in a lexicon -- all in one prompt.
+* **Word studies** -- Follow a chain from a verse to its Strong's numbers to
+  dictionary definitions to find the original meaning.
+* **Bible text search** -- Search for verses containing specific keywords across
+  installed translations.
+
+Your Personal Data
+^^^^^^^^^^^^^^^^^^
+
+The AI can also access your personal study data:
+
+* **Bookmarks** -- Find bookmarks at specific verses or by label.
+* **Labels** -- List all your labels for organizing and filtering.
+* **Notes** -- Read bookmark notes you have written.
+* **Study pads** -- Read and search study pad content.
+
+Writing Effective Prompts
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To get the most out of the AI agent, mention the specific actions you want it
+to perform. The AI uses its tools based on your instructions.
+
+**Refer to capabilities by name:**
+
+* "Look up what Matthew Henry's commentary says about this verse"
+* "Search for all verses mentioning 'grace' in KJV"
+* "Find the Strong's dictionary entry for the main Greek word in this verse"
+* "Check my bookmarks with the 'Study' label"
+
+**Combine multiple tools:**
+
+* "Compare this verse in KJV, ESV, and NIV, then look up the commentary"
+* "Read this passage, look up the key Greek words in Strong's dictionary, and
+  summarize the findings in a study pad"
+
+**Specify the output format:**
+
+* "Create a study pad with a verse-by-verse analysis"
+* "Add a bookmark note summarizing the cross-references"
+* "Give a brief answer without creating any documents"
+
+**Ask for sources:**
+
+* "Include verse references for all claims"
+* "Cite which commentary or dictionary you are quoting"
+
 
 Permissions
 -----------
