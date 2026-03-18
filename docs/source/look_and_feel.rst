@@ -1,15 +1,66 @@
 Look and Feel
 =============
 
-The look and feel of |app| can be configured for the entire application, for
-specific workspaces, specific windows, or even individual modules.
+The look and feel of |app| can be configured at several levels: for the entire
+application, as global defaults, for specific workspaces, for individual
+windows, or even for particular modules.
 
-Application
------------
+.. _settings-hierarchy:
 
-To configure application-wide look and feel settings (which are not synced to
-other devices), navigate to the top left main menu (|hamburger|) and click
-``Settings``. These settings apply to the local device only.
+Text display settings hierarchy
+-------------------------------
+
+Text display settings (formatting, fonts, colors, etc.) follow a three-level
+hierarchy. Each level inherits from the one above it, so you only need to
+change a setting at the level where you want it to differ.
+
+#. **Global defaults** -- apply to all workspaces and windows everywhere.
+#. **Workspace settings** -- override global defaults for one workspace and all
+   its windows.
+#. **Window settings** -- override the workspace setting for one specific
+   window.
+
+When you change a setting at a higher level, all lower levels that have not
+been explicitly overridden will automatically follow the change. For example,
+if you set the global font size to 16 pt and a workspace has no font size of
+its own, it uses 16 pt. If you then change the global font size to 14 pt, that
+workspace (and all its windows) will switch to 14 pt as well.
+
+A setting that has been explicitly set at a lower level is called an
+**override**. Overrides are not affected by changes at higher levels. For
+example, if you set a workspace font size to 18 pt, changing the global font
+size will not affect that workspace. You can remove an override at any time to
+go back to inheriting from the parent level.
+
+**Visual indicators** in the text options screens show where each setting comes
+from:
+
+- |settings_gear| **Settings gear icon** -- the setting is inherited from
+  global defaults.
+- |workspace_icon| **Gray workspace icon** -- you are editing a workspace
+  default (affects all its windows).
+- |workspace_green| **Green workspace icon** -- the window setting is using the
+  workspace default.
+- **No icon** -- the setting has been explicitly changed at this level
+  (overrides the parent).
+
+.. |settings_gear| unicode:: U+2699
+.. |workspace_icon| unicode:: U+25A0
+.. |workspace_green| unicode:: U+25A1
+
+You can navigate between levels directly from the text options screen. At the
+window level, links to the workspace and global settings are shown at the top.
+At the workspace level, a link to the global settings is shown. This makes it
+easy to see and adjust settings at every level without leaving the settings
+screen.
+
+Application settings
+--------------------
+
+To configure application-wide settings (which are not synced to other devices),
+navigate to the top left main menu (|hamburger|) and click ``Settings``. These
+settings apply to the local device only and are separate from the text display
+settings hierarchy described above.
 
 General
 ^^^^^^^
@@ -84,14 +135,44 @@ Study Pad
     :align: center
     :scale: 30%
 
-Workspace
----------
+.. _global-text-options:
 
-To configure the look and feel of individual workspaces, click on the three dot
-kebab menu on the top right of your workspace. From there click on `All Text Options`.
+Global text options
+-------------------
 
-Various appearance options can be changed. These settings are synced across
-devices.
+Global text options are the default text display settings for all workspaces.
+Any workspace or window that has not explicitly overridden a setting will use
+the global value.
+
+To access global text options:
+
+- From a **workspace** text options screen, tap the **Global text options**
+  link at the top.
+- From a **window** text options screen, tap the **Global text options** link
+  at the top.
+
+When you change a global setting, the change is immediately reflected in every
+workspace and window that is still inheriting that setting. Workspaces or
+windows that have their own override are not affected.
+
+Global text options are synced across devices.
+
+The available settings are the same as those described in the `Formatting`_ and
+`Text Appearance`_ sections below.
+
+.. _workspace-text-options:
+
+Workspace text options
+----------------------
+
+To configure the look and feel of an individual workspace, click on the three
+dot kebab menu on the top right of your workspace. From there click on
+``All Text Options``.
+
+Workspace text options override the global defaults for that workspace and all
+its windows. These settings are synced across devices.
+
+.. _formatting-options:
 
 Formatting
 """"""""""
@@ -111,6 +192,8 @@ Formatting
   traditionally shown in italics.
 - **Infinite scroll:** Automatically load more content when you scroll to the
   end of a chapter.
+
+.. _text-appearance-options:
 
 Text Appearance
 """""""""""""""
@@ -140,21 +223,28 @@ Text Appearance
     :align: center
     :scale: 30%
 
-Window
-------
-When using multiple windows, you can even customize the individual window text
-options to override current workspace settings. To change window text options:
+.. _window-text-options:
 
-    #. Tap and hold the square window icon at the bottom for the window you would
-       like to customize.
-    #. Click `Text Options`, then click `All Text Options`.
+Window text options
+-------------------
 
-All of the same options that you could configure in `Workspace`_ can be overridden
-for the selected window. In the screenshot below you can see that the window
-`Color settings` are overriding the workspace `Color settings`. To indicate this,
-there is no workspace icon on the `Color settings` icon). To reset all window
-settings back to the workspace settings, you can click the circular back arrow
-at the top right of the window settings screen.
+When using multiple windows, you can customize the text options of each
+individual window to override the workspace settings. To change window text
+options:
+
+    #. Tap and hold the square window icon at the bottom for the window you
+       would like to customize.
+    #. Click ``Text Options``, then click ``All Text Options``.
+
+All of the same options that you could configure at the `workspace
+<Workspace text options_>`_ level can be overridden for the selected window.
+In the screenshot below you can see that the window color settings are
+overriding the workspace color settings (indicated by the missing workspace
+icon). To reset all window settings back to the workspace defaults, you can
+click the circular back arrow at the top right of the window settings screen.
+
+From the window text options screen you can also navigate directly to the
+workspace or global text options using the links at the top of the screen.
 
 .. image:: ./images/window_appearance.png
     :align: center
@@ -162,7 +252,7 @@ at the top right of the window settings screen.
 
 Module
 ------
-For things that can not be changed through application, workspace, or window
+For things that can not be changed through global, workspace, or window
 settings, like the color of certain text within a module, e.g. Headings or
 Strong's numbers, you can code the color in the style.css file located within
 the module's zip package. You can see some examples of this being implemented here:
