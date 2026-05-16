@@ -24,46 +24,25 @@ Getting Started
 Choosing a Provider
 ^^^^^^^^^^^^^^^^^^^
 
-|app| supports the following AI providers:
+|app| supports a range of AI providers, including:
 
-.. list-table::
-   :header-rows: 1
-   :widths: 20 50 30
+* **Google Gemini** -- Google's AI models. Has a generous free tier; a good
+  starting point.
+* **OpenAI (ChatGPT)** -- The company behind ChatGPT.
+* **Anthropic (Claude)** -- Maker of the Claude family of models.
+* **xAI (Grok)** -- AI models from xAI.
+* **Mistral** -- European AI provider with efficient models.
+* **DeepSeek** -- Cost-effective models with strong multilingual capabilities.
+* **Groq** -- Extremely fast inference with open-source models.
+* **Alibaba Cloud (Qwen)** -- Multilingual models.
+* **OpenRouter** -- Aggregator that provides access to models from many
+  providers through a single API key.
+* **Custom** -- Connect to any OpenAI- or Anthropic-compatible API endpoint
+  (self-hosted or other providers).
 
-   * - Provider
-     - Description
-     - Notes
-   * - **Google Gemini**
-     - Google's AI models. Good starting point with a generous free tier.
-     - Recommended for beginners
-   * - **OpenAI (ChatGPT)**
-     - The company behind ChatGPT.
-     -
-   * - **Anthropic (Claude)**
-     - Maker of the Claude family of models.
-     -
-   * - **xAI (Grok)**
-     - AI models from xAI.
-     -
-   * - **Mistral**
-     - European AI provider with efficient models.
-     -
-   * - **DeepSeek**
-     - Cost-effective models with strong multilingual capabilities.
-     -
-   * - **Groq**
-     - Extremely fast inference with open-source models.
-     -
-   * - **Alibaba Cloud (Qwen)**
-     - Chinese AI provider with multilingual models.
-     -
-   * - **OpenRouter**
-     - Aggregator that provides access to models from many providers through a
-       single API key.
-     - Convenient for trying different models
-   * - **Custom**
-     - Connect to any OpenAI- or Anthropic-compatible API endpoint.
-     - For self-hosted or other providers
+The list of providers and the available models for each one is maintained
+inside the app. To see the exact, up-to-date list, open ``AI Settings`` >
+``Configure Connection`` > ``Add provider``.
 
 If you are new to AI services, **Google Gemini** is a good starting point
 because it offers a free usage tier that is sufficient for casual use.
@@ -108,6 +87,28 @@ capable model for complex tasks (like word studies).
 The first provider is used by default. Individual prompts can be configured to
 use a specific provider, overriding the default.
 
+Refreshing Available Models
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|app| ships with a built-in list of recommended models for each provider,
+but it can also fetch the current model list directly from the provider.
+This is useful when a provider releases new models that are not yet in the
+built-in list.
+
+In the provider's settings you can:
+
+* **Refresh models** -- Query the provider's API for the current model list.
+* **Add a custom model** -- Type a model name manually if you want to use a
+  model that is not in the fetched list.
+
+Fetched model lists are cached for several days so that the provider is not
+queried on every app start.
+
+.. note::
+
+   Not every provider supports model listing. For those that do not, the
+   built-in list and manually added models are the only options.
+
 
 Using AI Prompts
 ----------------
@@ -118,23 +119,24 @@ Prompts are instructions that tell the AI what to do with your selected text.
 Built-in Prompts
 ^^^^^^^^^^^^^^^^
 
-|app| includes six built-in prompts:
+|app| includes a set of built-in prompts. They are organised into three
+categories.
 
-**Translate to [UI language]**
-   Translates Bible text into the language your app interface is set to. If a
-   translation in that language is already installed, it can use it directly
-   instead of generating a new translation.
+Study prompts
+"""""""""""""
 
-**Translate to English**
-   Translates Bible text into English. Like the above, it can use an installed
-   English Bible when available.
-
-**Summary**
-   Creates a concise summary of the selected passage with theological focus.
+These prompts focus on understanding and analysing Bible text. Most of them
+are *Bible-only*, meaning they only appear when the active document is a
+Bible.
 
 **Explain Verses**
-   Explains the meaning, context, and theological significance of selected
-   verses in depth.
+   Explains the meaning, context, and theological significance of the
+   selected verses, grounded in the available commentaries.
+
+**Explain Verses (Study Pad)**
+   Like *Explain Verses*, but builds a Study Pad with a structured
+   verse-by-verse explanation, bookmarks, key themes, and an application
+   section.
 
 **Strong's Annotation**
    Adds Strong's concordance numbers to Bible text by comparing it with a
@@ -142,14 +144,121 @@ Built-in Prompts
    numbers.
 
 **Word Study**
-   Analyzes the original Hebrew or Greek words in the selected text, providing
-   definitions, usage patterns, and links to dictionary entries.
+   Analyzes the original Hebrew or Greek words in the selected text,
+   providing definitions, usage patterns, and dictionary entries.
+
+**Cross-References**
+   Finds and explains Bible passages related to the selected verses.
+
+**Compare Translations**
+   Shows how different installed Bible translations render the same passage.
+
+**Thematic Study**
+   Builds a Study Pad with passages and notes around the central theme of the
+   selected verses.
+
+Notes prompts
+"""""""""""""
+
+These prompts help create and improve notes and study material.
+
+**Bookmark Annotate**
+   Creates a bookmark with an AI-generated study note for the selected verses.
+
+**Enhance Note**
+   Improves the grammar, clarity, and readability of an existing bookmark
+   note. This prompt rewrites the note text in place (see *Text
+   transformation prompts* below).
+
+**Study Layout**
+   Opens commentary and parallel translation windows for further study of
+   the selected passage.
+
+General prompts
+"""""""""""""""
+
+These prompts work on any document type, not only Bibles.
+
+**Translate**
+   Translates the selected text into the language your app interface is set
+   to. If a translation in that language is already installed, it can use
+   it directly instead of generating a new translation. The prompt name in
+   the menu shows the actual target language, e.g. "Translate to Finnish".
+   This is a text-transformation prompt (see below).
+
+**Summary**
+   Creates a concise summary of the selected text.
+
+**Ask Question**
+   Lets you ask a free-form question about the selected passage.
+
+**Custom Prompt**
+   Runs a free-form, one-off instruction on the selected passage without
+   creating a saved custom prompt.
+
+**Workspace Assistant**
+   Manages windows on your behalf: it can create, close, rearrange and
+   change documents in the current workspace based on your instructions.
+
+.. note::
+
+   In addition to the prompts above, |app| ships with a number of internal
+   test prompts that are hidden by default. They are intended for developers
+   and are not shown in normal use.
+
+Prompt Categories
+^^^^^^^^^^^^^^^^^
+
+Prompts are organised into categories (**Study**, **Notes**, **General**).
+Categories control how prompts are grouped in the *AI Actions* menus and
+in ``AI Settings``.
+
+You can:
+
+* Create your own categories for custom prompts.
+* Move custom prompts between categories.
+* Hide an entire category (including its prompts) from the AI Actions menus,
+  for example to hide the *Test* category or your own work-in-progress
+  prompts.
+
+Built-in prompts are pre-assigned to the appropriate categories and cannot
+be moved.
+
+Special Prompt Behaviors
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Some prompts behave differently from the default "ask a question, get an
+answer" pattern.
+
+**Bible-only prompts**
+   Many study-oriented prompts (like *Explain Verses*, *Cross-References*
+   or *Word Study*) only appear when the active document is a Bible. They
+   are hidden in commentaries, dictionaries and other documents because
+   their templates assume Bible text.
+
+**Text-transformation prompts**
+   A few prompts replace text instead of producing a separate result:
+
+   * **Translate** -- replaces (or augments) the selected text with its
+     translation.
+   * **Enhance Note** -- rewrites the existing bookmark note in place.
+
+   When you run a text-transformation prompt, the result is written back to
+   the source rather than shown as a new AI document.
+
+**Tool restrictions**
+   Each prompt declares which tools it is allowed (or denied) to use. For
+   example, *Summary* uses no tools at all, while *Explain Verses* is
+   limited to Bible-reading tools. This means the same AI provider may have
+   fewer tools available in one prompt than in another -- this is
+   intentional and helps each prompt stay focused.
 
 Where Prompts Appear
 ^^^^^^^^^^^^^^^^^^^^
 
 AI prompts are available in several places throughout the app. Each prompt is
-configured to appear in the contexts where it is most useful:
+configured to appear in the contexts where it is most useful. In menus they
+are typically grouped under an ``AI Actions`` submenu.
 
 **AI Text Processing (document display)**
    Process an entire chapter or document through AI. Enable by selecting an
@@ -161,15 +270,16 @@ configured to appear in the contexts where it is most useful:
    prompts are shown as action buttons.
 
 **Text selection**
-   When you select text by long-pressing and dragging, AI prompts appear in the
-   context menu.
+   When you select text by long-pressing and dragging, AI prompts appear in
+   the selection menu, under ``AI Actions``.
 
 **Window menu**
-   Some prompts are accessible from the window's popup menu (long-press the
-   window button at the bottom of the screen).
+   Long-press the window button at the bottom of the screen to open the
+   window popup menu. AI prompts are listed under ``AI Actions``.
 
 **Workspace menu**
-   Some prompts appear in the workspace toolbar's three-dot menu.
+   AI prompts also appear in the workspace toolbar's three-dot menu, under
+   ``AI Actions``.
 
 **Note editor**
    When editing a bookmark note, AI prompts can assist with writing.
@@ -376,15 +486,19 @@ There are four permission modes:
 Setting Permissions
 ^^^^^^^^^^^^^^^^^^^
 
-Permissions can be configured at three levels:
+Permissions can be configured at three levels, with finer levels overriding
+coarser ones:
 
 #. **Global default** -- In ``AI Settings`` > ``Configure Connection`` >
-   ``Manage tool permissions``. This sets the default behavior for all prompts.
-#. **Per-prompt** -- When editing a custom prompt, you can set a permission mode
-   that overrides the global default for that prompt.
-#. **Per-tool** -- In the global tool permissions dialog, you can set individual
-   tools to "Always allow" or "Always deny", overriding the mode-based
-   behavior.
+   ``Manage tool permissions``. This sets the default permission mode for
+   all prompts.
+#. **Per-prompt** -- When editing a custom prompt, you can set a permission
+   mode that overrides the global default for that prompt only.
+#. **Per-tool override** -- In the same tool permissions dialog, you can
+   force individual write tools to **Always allow** or **Always deny**
+   regardless of the current permission mode. Per-tool overrides are useful
+   when you trust certain operations (e.g. creating bookmarks) but want to
+   keep approving others manually.
 
 
 Custom Prompts
@@ -441,7 +555,29 @@ share your prompts with other |app| users:
 
 * **Export** -- From the prompt list, use the export option to save your custom
   prompts to a CSV file.
-* **Import** -- Use the import option to load prompts from a CSV file.
+* **Import** -- Use the import option to load prompts from a CSV file. You
+  will be asked whether to import the file as a *normal CSV import* (the
+  prompts become regular, editable custom prompts) or as an *add-on prompt
+  pack* (see below).
+
+Add-on Prompt Packs
+^^^^^^^^^^^^^^^^^^^
+
+In addition to importing prompts directly into your prompt list, you can
+install prompt packs as *add-on modules*. When a CSV is imported as an
+add-on:
+
+* Prompts from the pack appear in your prompt list with an **add-on badge**
+  showing where they came from.
+* The prompts are **read-only** -- you cannot edit them, but you can copy
+  them to customize.
+* Removing the add-on module removes all its prompts at once.
+* Add-on prompts are not synchronized via cloud sync; the underlying CSV
+  file lives with the add-on module.
+
+This is useful for distributing curated prompt collections (for example
+study packages produced by a third party) without polluting your personal
+prompt list with prompts you cannot easily remove later.
 
 
 Cache and Cost Management
@@ -491,14 +627,25 @@ Usage section.
 Cloud Sync
 ----------
 
-When :doc:`cloud_sync` is enabled, the following AI data is synchronized:
+When :doc:`cloud_sync` is enabled, the following AI data is synchronized
+between your devices:
 
-* **Synced:** Custom prompts and provider configurations (provider type,
-  model selection, endpoint settings).
-* **Not synced:** API keys, cache, and usage/cost data.
+* **Synced:**
 
-API keys remain on each device for security. You need to enter your API key
-separately on each device.
+  * Custom prompts (including their categories and per-prompt settings)
+  * Prompt categories (built-in and user-created)
+  * Provider configurations (provider type, endpoint, configured models)
+  * Default model selection and other global AI settings
+  * Usage and cost statistics
+
+* **Not synced:**
+
+  * API keys -- these remain on each device for security
+  * The local AI result cache
+
+API keys are intentionally left out of sync. You need to enter your API key
+separately on each device. Add-on prompt packs are also not synced through
+this mechanism -- they come with the add-on module they live in.
 
 
 Tips and Troubleshooting
