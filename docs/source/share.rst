@@ -54,3 +54,12 @@ Sharing Bibles/Documents
 It is also possible to share other |app| documents. See :doc:`/backup_restore`
 for details on backing up documents that can then be shared with other
 |app| users.
+
+Sharing Bible Links
+-------------------
+
+You can share a direct link to a specific Bible passage using the
+``https://read.andbible.org/`` URL format. When another |app| user opens the
+link, it opens the passage directly in the app.
+
+For more details on the link format and options, see :doc:`/bible_links`.

@@ -20,6 +20,7 @@ Contents
     :caption: Contents:
 
    getting_started
+   ai
    backup_restore
    bible_links
    bookmarks
@@ -32,9 +33,11 @@ Contents
    labels
    look_and_feel
    memorize
+   my_documents
    navigation
    notes
    reading_plans
+   reading_progress
    releases/index
    search
    share

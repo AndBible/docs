@@ -42,24 +42,37 @@ Reposition the window by using the 'Move To' menu option.
 
 A window has many customisation settings. The most recently used settings appear in the pop-up menu. But you can access all window settings via the 'All-text-options' menu item. 
 
-It's important to understand the difference between workspace-settings and window-settings. These settings are nearly the same so it's easy to get them confused. 
+Text display settings follow a three-level hierarchy: **global defaults →
+workspace settings → window settings**. Each level inherits from the one above
+it. For a full explanation of how this works, see :ref:`settings-hierarchy`.
 
-* Workspace-settings are accessed via the dot menu at the top right of the screen. 
-* Workspace-settings have the gray-workspace-icon. 
-* Workspace-settings apply to ALL windows. 
+Here is a quick summary of the difference between the levels:
 
-Now for Window settings. They are accessed via the window-buttons. 
+* **Global settings** set the defaults for all workspaces and windows. Access
+  them via the link at the top of any workspace or window text options screen.
+* **Workspace settings** override global defaults for one workspace and all its
+  windows. Access them via the dot menu at the top right of the screen. They
+  are shown with a gray workspace icon.
+* **Window settings** override the workspace setting for one specific window.
+  Access them via the window buttons. They show either a green workspace icon
+  (using workspace default), a settings gear icon (inherited from global), or
+  no icon (explicitly changed).
 
-* Window-settings have either a green-workspace-icon or no icon at all. 
-* Window-settings will use the workspace-setting unless you have changed it to something different. 
-
-So, if you want to change the appearance of all windows, change the workspace-setting. But if you only want one window to look different, change the window-setting. 
+So, if you want to change the appearance of all windows everywhere, change the
+global setting. If you want all windows in one workspace to look different,
+change the workspace setting. If you only want one window to look different,
+change the window setting.
 
 Some examples:
 
-* I want the cross-reference window only to have a different background color. So I change the window-setting. 
-* I want all other windows to have a different background color. So I change the workspace-setting. This won't affect the window I just changed because setting the color at the Window-level overrides the workspace-setting. 
-* And finally I want all windows to have a smaller font-size. So I change the font-size workspace-setting. 
+* I want the cross-reference window only to have a different background color.
+  So I change the window setting.
+* I want all other windows to have a different background color. So I change
+  the workspace setting. This won't affect the window I just changed because
+  setting the color at the window level overrides the workspace setting.
+* I want all windows everywhere to have a smaller font size. So I change the
+  global setting. This affects every workspace and window that has not been
+  individually overridden.
 
 .. raw:: html
 

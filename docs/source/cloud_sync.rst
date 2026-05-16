@@ -63,10 +63,15 @@ What Gets Synced
 **Workspaces** (toggle: Workspaces)
    Workspace configurations, window layouts, and current document positions.
 
+**AI settings** (synced with Workspaces)
+   Custom AI prompts and provider configurations (provider type, model,
+   endpoint). API keys, cache, and usage data are **not** synced -- you need
+   to enter your API key on each device separately. See :doc:`ai` for details.
+
 **Not synced:**
    Bible and commentary modules themselves are not synced.
-   Download your modules separately on each device. App settings and preferences
-   are also not synced.
+   Download your modules separately on each device. App settings, preferences,
+   AI API keys, and AI cache are also not synced.
 
 How Sync Works
 --------------

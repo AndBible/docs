@@ -110,7 +110,31 @@ Editing a note
 To edit a note, simply :ref:`view a note<notes:viewing an individual note:>`
 and click into the note to start editing. When editing a note, changes are saved automatically.
 
-Notes support rich formatting similar to word processing applications.
+Notes support rich formatting. |app| offers two editor types: an **HTML editor**
+and a **Markdown editor**. You can choose which editor is used for new notes in
+the settings.
+
+.. _notes-editor-setting:
+
+Choosing the Editor Format
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. From the top left main menu (|hamburger|), click ``Settings``.
+#. Under the notes settings, find ``Format for new bookmark notes``.
+#. Select either **HTML** or **Markdown**.
+
+This setting applies to newly created notes and study pad entries. Existing
+notes keep the format they were created with.
+
+HTML Editor
+^^^^^^^^^^^
+
+The HTML editor provides a toolbar with standard formatting options:
+
+- **Bold**, **Italic**, **Underline**
+- Ordered and unordered **lists**
+- **Indentation** (increase / decrease)
+- **Bible reference link** insertion
 
 To add a Bible reference link:
 
@@ -121,3 +145,26 @@ To add a Bible reference link:
   .. image:: ./images/note_editing.png
     :align: left
     :scale: 60%
+
+Markdown Editor
+^^^^^^^^^^^^^^^
+
+The Markdown editor lets you write notes using Markdown syntax. It provides a
+formatting toolbar and a live text editing area.
+
+The toolbar includes:
+
+- **Heading** selector (H1--H3)
+- **Bold**, **Italic**, **Underline**
+- Ordered and unordered **lists**
+- **Indentation** (increase / decrease)
+- **Undo / Redo**
+- **Bible reference link** insertion
+
+The editor also supports these conveniences:
+
+- **Auto-list continuation**: pressing Enter on a list item creates the next
+  item automatically.
+- **Auto-save**: changes are saved automatically after a short delay.
+- **Keyboard shortcuts**: Ctrl+Z for undo, Ctrl+Y (or Ctrl+Shift+Z) for redo,
+  Escape to close the editor.
