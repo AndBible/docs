@@ -37,6 +37,10 @@ Keeping your progress
 
 Your memorization progress is stored in the window. As long as the window remains open (even if minimized), your progress is preserved. If you close the window, the progress is lost and you will need to start over.
 
+When you successfully complete a Word Scramble exercise, the verses are also recorded
+in your :doc:`reading progress <reading_progress>` as memorized. This is reflected in
+the progress indicators on the book and chapter grids.
+
 .. tip::
 
    To quickly find passages you want to memorize, create a :doc:`bookmark <bookmarks>` with a dedicated :doc:`label <labels>` (e.g. "Memorize"). You can then access all your memorization passages from the Bookmarks view.

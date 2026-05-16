@@ -35,6 +35,7 @@ Contents
    navigation
    notes
    reading_plans
+   reading_progress
    releases/index
    search
    share
