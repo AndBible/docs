@@ -49,9 +49,21 @@ To enable automatic tracking:
 Memorization Tracking
 ---------------------
 
-When you complete a **Word Scramble** exercise in the :doc:`Memorize <memorize>` view,
-the memorized verses are automatically recorded. No extra steps are needed -- just
-complete the scramble successfully and your progress is saved.
+When you successfully complete a **Word Scramble**, **Word Type** or
+**Word Order** exercise in the :doc:`Memorize <memorize>` view, the verses
+in the exercise are automatically marked as memorized. The marking is also
+saved when you tap **Mark as memorized** in the Memorize view's menu, even
+if you have not run an exercise.
+
+You can also disable the automatic marking, for example if you prefer to
+mark verses manually after reviewing them yourself:
+
+#. Open the main menu (|hamburger|) and go to **Settings**.
+#. Open **Progress & memorization**.
+#. Toggle **Auto-mark as memorized**.
+
+The same screen contains other memorization options described under
+:doc:`Memorize <memorize>`.
 
 Progress Indicators
 -------------------
