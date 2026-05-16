@@ -17,22 +17,15 @@ as you scroll through the text.
 Mark as Read Button
 ^^^^^^^^^^^^^^^^^^^
 
-A **Mark as read** button can be shown at the bottom of each Bible chapter. Tap it to
+A **Mark as read** button is shown at the bottom of each Bible chapter. Tap it to
 record the chapter as read. The button changes appearance once marked.
 
-To enable this button:
+The button is a :doc:`text display setting <look_and_feel>`, so it can be turned
+off or on per workspace or per window:
 
 #. Open a Bible text window.
 #. Tap the three-dot menu (top right of the window) and choose **Text options**.
-#. Enable **Mark as read button**.
-
-This is a :doc:`text display setting <look_and_feel>`, so it can be configured per
-workspace or per window.
-
-.. note::
-
-   The mark-as-read button is disabled by default. You need to enable it in text
-   display settings before it appears.
+#. Toggle **Mark as read button**.
 
 Automatic Reading Tracking
 ^^^^^^^^^^^^^^^^^^^^^^^^^^

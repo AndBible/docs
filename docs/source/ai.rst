@@ -87,22 +87,21 @@ capable model for complex tasks (like word studies).
 The first provider is used by default. Individual prompts can be configured to
 use a specific provider, overriding the default.
 
-Refreshing Available Models
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Available Models
+^^^^^^^^^^^^^^^^
 
-|app| ships with a built-in list of recommended models for each provider,
-but it can also fetch the current model list directly from the provider.
-This is useful when a provider releases new models that are not yet in the
-built-in list.
+|app| ships with a built-in list of recommended models for each provider.
+For providers that publish a public model catalogue, |app| also fetches
+the current list **automatically** the first time a provider is set up
+through the Easy Setup wizard, so newly released models become available
+without an app update.
 
-In the provider's settings you can:
+In the **AI Models** screen you can also:
 
-* **Refresh models** -- Query the provider's API for the current model list.
 * **Add a custom model** -- Type a model name manually if you want to use a
-  model that is not in the fetched list.
-
-Fetched model lists are cached for several days so that the provider is not
-queried on every app start.
+  model that is not in the built-in or fetched list.
+* **Set the default model** -- Choose which model is used when a prompt
+  doesn't specify its own.
 
 .. note::
 
@@ -137,11 +136,6 @@ Bible.
    Like *Explain Verses*, but builds a Study Pad with a structured
    verse-by-verse explanation, bookmarks, key themes, and an application
    section.
-
-**Strong's Annotation**
-   Adds Strong's concordance numbers to Bible text by comparing it with a
-   reference translation (KJV). Useful for translations that lack Strong's
-   numbers.
 
 **Word Study**
    Analyzes the original Hebrew or Greek words in the selected text,
@@ -200,12 +194,6 @@ These prompts work on any document type, not only Bibles.
    Manages windows on your behalf: it can create, close, rearrange and
    change documents in the current workspace based on your instructions.
 
-.. note::
-
-   In addition to the prompts above, |app| ships with a number of internal
-   test prompts that are hidden by default. They are intended for developers
-   and are not shown in normal use.
-
 Prompt Categories
 ^^^^^^^^^^^^^^^^^
 
@@ -217,9 +205,8 @@ You can:
 
 * Create your own categories for custom prompts.
 * Move custom prompts between categories.
-* Hide an entire category (including its prompts) from the AI Actions menus,
-  for example to hide the *Test* category or your own work-in-progress
-  prompts.
+* Hide an entire category (including its prompts) from the AI Actions menus
+  -- useful for parking your own work-in-progress prompts out of the way.
 
 Built-in prompts are pre-assigned to the appropriate categories and cannot
 be moved.
@@ -329,8 +316,12 @@ references, search your Bible, read your bookmarks, and more.
 Read Tools
 ^^^^^^^^^^
 
-Read tools retrieve information without making any changes. They do not require
-permission.
+Read tools retrieve information without making any changes. They run without
+asking — there is no runtime permission prompt for them. If you want to keep
+a read tool away from the AI, disable it instead (globally or for a single
+prompt) using the tool list described under :ref:`ai:Permissions`. For
+example, you can keep prompts from reading your bookmarks by disabling the
+bookmark read tools either globally or just for that one prompt.
 
 * **Read verse content** -- Retrieve the text of any verse or chapter from any
   installed Bible translation.
@@ -351,7 +342,9 @@ Write Tools
 ^^^^^^^^^^^
 
 Write tools can create or modify data in your app. They are subject to the
-:ref:`ai:Permissions` system.
+:ref:`ai:Permissions` system: each write operation either runs after asking
+you (the default), follows a saved permission decision, or is blocked
+entirely by a per-tool override.
 
 * **Create bookmark** -- Create a new bookmark at a verse, optionally with a
   note.
@@ -459,8 +452,10 @@ the AI cannot modify your data without your knowledge.
 
 .. note::
 
-   Read tools never require permission. Only write tools (creating bookmarks,
-   adding notes, etc.) are gated by the permission system.
+   Read tools never ask for runtime permission. If you want to keep a read
+   tool away from the AI, disable it entirely — either globally in
+   ``Default tool settings`` or for one prompt in the prompt editor. Write
+   tools have a separate runtime permission system, described below.
 
 Permission Modes
 ^^^^^^^^^^^^^^^^
@@ -580,36 +575,14 @@ study packages produced by a third party) without polluting your personal
 prompt list with prompts you cannot easily remove later.
 
 
-Cache and Cost Management
--------------------------
-
-Cache
-^^^^^
-
-AI results are cached locally so that the same request does not consume
-additional API tokens. For example, if you translate Genesis 1 and then
-navigate away and come back, the cached result is displayed instantly.
-
-The cache can be managed in ``AI Settings`` > ``Configure Connection`` >
-``Cache``:
-
-* **Browse** cached entries with details (document, verse, prompt type, model,
-  date, size).
-* **Filter** by document, processing type, or model.
-* **Delete** entries individually, by filter, by age (older than 7, 30, or 90
-  days), or all at once.
-
-.. note::
-
-   The cache is stored only on the device and is not synchronized to the cloud.
-
 Cost Tracking
-^^^^^^^^^^^^^
+-------------
 
 |app| tracks token usage and provides estimated costs for each provider:
 
 * **Token counts** -- Input tokens (text sent to the AI), output tokens
-  (text received), and cache tokens are tracked separately.
+  (text received), and prompt-cache tokens (when the provider's own prompt
+  caching kicks in) are tracked separately.
 * **Estimated cost** -- Calculated based on each model's published pricing.
 * **Per-provider breakdown** -- Each configured provider shows its own usage
   and cost.
@@ -641,7 +614,6 @@ between your devices:
 * **Not synced:**
 
   * API keys -- these remain on each device for security
-  * The local AI result cache
 
 API keys are intentionally left out of sync. You need to enter your API key
 separately on each device. Add-on prompt packs are also not synced through
@@ -668,7 +640,6 @@ Reducing Costs
 * Use a more capable (and expensive) model only for complex tasks like word
   studies.
 * Configure multiple providers and assign them to specific prompts.
-* The cache prevents duplicate API calls -- avoid clearing it unnecessarily.
 
 Common Issues
 ^^^^^^^^^^^^^
