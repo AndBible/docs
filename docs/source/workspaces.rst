@@ -26,17 +26,28 @@ Access the list of workspaces via the 'dot' menu or by swiping down on the verse
 * create new workspaces
 * and delete existing ones
 
-The Settings option allows you to edit the default settings for all windows in the workspace. 
+The Settings option allows you to edit the default text display settings for all
+windows in the workspace. These workspace settings override the
+:ref:`global defaults <global-text-options>`, and in turn can be overridden by
+individual window settings.
 
-The **gray workspace** icon indicates you are changing a workspace default setting. 
+The **gray workspace** icon indicates you are changing a workspace default
+setting.
 
 .. warning::
-    These settings affect all windows in the workspace that are using the defaults.
+    These settings affect all windows in the workspace that are using the
+    defaults.
 
-A **green workspace** icon indicates that this window setting *is* using the default workspace setting.
+A **green workspace** icon indicates that this window setting *is* using the
+default workspace setting. A **settings gear** icon indicates the setting is
+inherited from global defaults.
 
-If there is no green-workspace-icon, then the setting has been changed manually and the workspace settings won't affect it. 
-Restore it to the default by pushing the Reset button. 
+If there is no icon, then the setting has been changed manually and changes at
+higher levels won't affect it. Restore it to the default by pushing the Reset
+button.
+
+For more details on how settings are inherited, see
+:ref:`settings-hierarchy`.
 
 :doc:`Easily navigate between workspaces using gestures. <Moving between workspaces>`
 

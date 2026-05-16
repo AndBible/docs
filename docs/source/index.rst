@@ -20,6 +20,7 @@ Contents
     :caption: Contents:
 
    getting_started
+   ai
    backup_restore
    bible_links
    bookmarks
@@ -28,10 +29,12 @@ Contents
    customisation/index
    discrete_build
    documents
+   experimental_features
    faq
    labels
    look_and_feel
    memorize
+   my_documents
    navigation
    notes
    reading_plans

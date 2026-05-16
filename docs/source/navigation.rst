@@ -139,3 +139,55 @@ on the book reference section of the top main toolbar:
     :height: 400
 
 For more information about managing workspaces, see :doc:`Workspaces</workspaces>`.
+
+Gestures and Shortcuts
+----------------------
+
+|app| supports a variety of gestures and shortcuts for efficient navigation.
+
+Swipe Left/Right on Bible Text
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can swipe left or right on the Bible text to navigate. The behavior can be
+configured in ``Settings`` > ``Application behavior`` > ``Action for swipe
+left/right gesture``:
+
+- **Chapter** (default) -- Navigate to the next or previous chapter.
+- **Page** -- Scroll by one page (like tapping the margin).
+- **Disabled** -- Swiping has no effect on the Bible text.
+
+Double-Tap to Fullscreen
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Double-tap the Bible text to enter fullscreen mode, which hides the toolbar and
+status bar for distraction-free reading. Double-tap again to exit fullscreen.
+
+This feature is enabled by default and can be toggled in ``Settings`` >
+``Application behavior`` > ``Double-tap to fullscreen``.
+
+Fullscreen by Scrolling
+^^^^^^^^^^^^^^^^^^^^^^^
+
+When enabled, the app automatically enters fullscreen mode when you start
+scrolling the text, and exits fullscreen when you scroll back to the top.
+
+To enable: ``Settings`` > ``Application behavior`` > ``Fullscreen by
+scrolling``.
+
+Volume Keys Scrolling
+^^^^^^^^^^^^^^^^^^^^^
+
+By default, the device volume buttons scroll the Bible text up and down instead
+of adjusting the system volume. This is useful for hands-free reading.
+
+To disable: ``Settings`` > ``Application behavior`` > ``Volume keys scroll``.
+
+Long-Press Actions
+^^^^^^^^^^^^^^^^^^
+
+Several buttons support long-press for quick access to additional features:
+
+- **Back button** -- Open the navigation history list.
+- **Speak toolbar button** -- Open speak settings directly.
+- **Window button** (in the bottom bar) -- Minimize the window instantly.
+- **Verse location title** (top of screen) -- Jump to the document selector.
