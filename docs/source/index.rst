@@ -17,35 +17,69 @@ Contents
 
 .. toctree::
     :maxdepth: 5
-    :caption: Contents:
+    :caption: Getting Started
 
-   getting_started
-   ai
-   backup_restore
-   bible_links
-   bookmarks
-   cloud_sync
-   custom_repositories
-   customisation/index
-   discrete_build
-   documents
-   faq
-   labels
-   look_and_feel
-   memorize
-   my_documents
-   navigation
-   notes
-   reading_plans
-   reading_progress
-   releases/index
-   search
-   share
-   speak
-   study_pads
-   usage
-   verse_action_dialog
-   windows
-   workspaces
-   videos/note_add_to_existing_bookmark
-   support
+    getting_started
+    navigation
+    usage
+
+.. toctree::
+    :maxdepth: 5
+    :caption: Bible Documents
+
+    documents
+    my_documents
+    custom_repositories
+
+.. toctree::
+    :maxdepth: 5
+    :caption: Reading & Workspace
+
+    workspaces
+    windows
+    verse_action_dialog
+    look_and_feel
+    bible_links
+    speak
+
+.. toctree::
+    :maxdepth: 5
+    :caption: Study Tools
+
+    bookmarks
+    labels
+    notes
+    study_pads
+    search
+    reading_plans
+    reading_progress
+    memorize
+    ai
+    share
+
+.. toctree::
+    :maxdepth: 5
+    :caption: Backup & Sync
+
+    backup_restore
+    cloud_sync
+
+.. toctree::
+    :maxdepth: 5
+    :caption: Customisation & Advanced
+
+    customisation/index
+    discrete_build
+
+.. toctree::
+    :maxdepth: 5
+    :caption: Help & Reference
+
+    faq
+    support
+    releases/index
+
+.. toctree::
+    :hidden:
+
+    videos/note_add_to_existing_bookmark
