@@ -59,5 +59,6 @@ To open a document in a window:
 Cloud Sync
 ----------
 
-My Documents are included in :doc:`cloud sync <cloud_sync>`, so your documents
-and their contents are synchronized across devices.
+My Documents can be synchronized across devices using :doc:`cloud sync
+<cloud_sync>`. Enable the **My Documents** toggle in the cloud sync settings;
+your documents and their contents are then kept in sync between devices.

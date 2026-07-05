@@ -130,3 +130,11 @@ There are two kinds of progress in the Memorize view:
    :doc:`bookmark <bookmarks>` with a dedicated :doc:`label <labels>`
    (e.g. "Memorize"). You can then access all your memorization passages
    from the Bookmarks view.
+
+Cloud Sync
+----------
+
+Your memorized verses can be synchronized across devices using :doc:`cloud sync
+<cloud_sync>`. Enable the **Reading Progress** toggle in the cloud sync settings
+(the same toggle also covers your chapter :doc:`reading records
+<reading_progress>`).

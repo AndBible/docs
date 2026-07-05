@@ -203,3 +203,10 @@ Example reading plans can be found
 
     A full list of OSIS book names can be found
     `here <https://wiki.crosswire.org/OSIS_Book_Abbreviations>`_.
+
+Cloud Sync
+----------
+
+Your reading plans and their progress can be synchronized across devices using
+:doc:`cloud sync <cloud_sync>`. Enable the **Reading Plans** toggle in the cloud
+sync settings.
