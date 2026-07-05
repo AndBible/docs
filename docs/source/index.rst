@@ -63,6 +63,7 @@ Contents
 
     backup_restore
     cloud_sync
+    document_sync
 
 .. toctree::
     :maxdepth: 5

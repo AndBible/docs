@@ -68,10 +68,12 @@ What Gets Synced
    endpoint). API keys, cache, and usage data are **not** synced -- you need
    to enter your API key on each device separately. See :doc:`ai` for details.
 
+**Documents** (toggle: Documents)
+   Installed Bibles, commentaries, dictionaries and other modules can be synced
+   as a separate category. See :doc:`document_sync` for details.
+
 **Not synced:**
-   Bible and commentary modules themselves are not synced.
-   Download your modules separately on each device. App settings, preferences,
-   AI API keys, and AI cache are also not synced.
+   App settings, preferences, AI API keys, and AI cache are not synced.
 
 How Sync Works
 --------------
