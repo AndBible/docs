@@ -24,7 +24,7 @@ Setting Up Sync
 #. Open the top left main menu (|hamburger|).
 #. Tap ``Sync settings``.
 #. Choose your sync adapter: **Google Drive** (default) or **Nextcloud**.
-#. Toggle on the data categories you want to sync (Bookmarks, Workspaces).
+#. Toggle on the data categories you want to sync (see `What Gets Synced`_).
 
 When enabling sync for the first time:
 
@@ -56,6 +56,9 @@ If using Nextcloud instead of Google Drive:
 What Gets Synced
 ----------------
 
+Each category has its own toggle in Sync settings and can be turned on or off
+independently.
+
 **Bookmarks** (toggle: Bookmarks)
    Bookmarks, highlights, notes, labels, and study pads — for both Bible
    and non-Bible documents.
@@ -63,14 +66,26 @@ What Gets Synced
 **Workspaces** (toggle: Workspaces)
    Workspace configurations, window layouts, and current document positions.
 
-**AI settings** (synced with Workspaces)
+**Reading Plans** (toggle: Reading Plans)
+   Your reading plans and their progress (which readings you have completed).
+
+**My Documents** (toggle: My Documents)
+   Your personal documents and their content. See :doc:`my_documents`.
+
+**AI Settings** (toggle: AI Settings)
    Custom AI prompts and provider configurations (provider type, model,
    endpoint). API keys, cache, and usage data are **not** synced -- you need
    to enter your API key on each device separately. See :doc:`ai` for details.
 
+**Reading Progress** (toggle: Reading Progress)
+   Memorized verses and your chapter reading records. See
+   :doc:`reading_progress` and :doc:`memorize`.
+
 **Documents** (toggle: Documents)
    Installed Bibles, commentaries, dictionaries and other modules can be synced
-   as a separate category. See :doc:`document_sync` for details.
+   as a separate category. Unlike the categories above (which sync small data
+   records), this copies whole document files. See :doc:`document_sync` for
+   details.
 
 **Not synced:**
    App settings, preferences, AI API keys, and AI cache are not synced.

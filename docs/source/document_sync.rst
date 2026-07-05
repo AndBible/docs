@@ -1,10 +1,11 @@
 Document Sync
 =============
 
-In addition to syncing your bookmarks, notes, and workspaces (see
-:doc:`cloud_sync`), |app| can also synchronize your installed **documents** —
-Bibles, commentaries, dictionaries and other modules — across your devices,
-using the same cloud account (Google Drive or Nextcloud).
+In addition to syncing your data — bookmarks, workspaces, reading plans, My
+Documents, AI settings and reading progress (see :doc:`cloud_sync`) — |app| can
+also synchronize your installed **documents** — Bibles, commentaries,
+dictionaries and other modules — across your devices, using the same cloud
+account (Google Drive or Nextcloud).
 
 When a document is installed on one device — by *any* method (downloaded from a
 repository, sideloaded as a zip, or imported as a MyBible, MySword, e-Sword or
@@ -19,13 +20,14 @@ everything already stored in the cloud.
    keeps a complete copy. As a result, the space used in your cloud account grows
    with the size of your document library.
 
-How It Differs from Bookmark/Workspace Sync
--------------------------------------------
+How It Differs from Data Sync
+-----------------------------
 
-Document sync is a separate category from the bookmark and workspace sync
-described in :doc:`cloud_sync`. It shares the same cloud account and runs on the
-same background sync cycle, but it moves whole document files rather than small
-database changes, and it offers more per-device control (see below).
+Documents is a separate category from the data categories (bookmarks,
+workspaces, reading plans, and so on) described in :doc:`cloud_sync`. It shares
+the same cloud account and runs on the same background sync cycle, but it moves
+whole document files rather than small database changes, and it offers more
+per-device control (see below).
 
 Requirements
 ------------
