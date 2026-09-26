@@ -95,11 +95,13 @@ See also the :doc:`speak` page for more about the Text-to-Speech feature.
 Is there a version for iOS (iPhone / iPad)?
 -------------------------------------------
 
-No, |app| is exclusively for Android, and there are no plans for an iOS version
-at this time. It would require a dedicated professional iOS developer to join
-the project.
+Yes! |app| is now available on the
+`App Store <https://apps.apple.com/us/app/andbible-bible-study/id6774904527>`_
+for iPhone, iPad, Apple Silicon Macs and Apple Vision Pro. It is close to
+feature-complete, though the Android and iOS versions are currently built on
+separate codebases, so some differences remain while the two are unified.
 
-Some alternatives:
+If you're still on an older Android device and prefer not to switch:
 
 * Consider buying an inexpensive Android tablet to use |app|.
 * You can :ref:`run the app on Linux using Waydroid <getting_started:Linux setup>`.
