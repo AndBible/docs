@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Redirecting…</title>
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=https://andbible.org/docs/">
+<script>
+  var known = ["ai", "backup_restore", "bible_links", "bookmarks", "cloud_sync", "custom_repositories", "customisation/custom_css", "customisation/index", "customisation/module_creation", "discrete_build", "document_sync", "documents", "faq", "getting_started", "index", "labels", "look_and_feel", "memorize", "my_documents", "navigation", "notes", "reading_plans", "reading_progress", "releases/index", "releases/release_4_0", "releases/release_4_1", "releases/release_5_0", "search", "share", "speak", "study_pads", "style_guide", "support", "usage", "verse_action_dialog", "videos/note_add_to_existing_bookmark", "windows", "workspaces"];
+  var m = location.pathname.match(/^\/en\/[^/]+\/(.+?)(?:\.html)?\/?$/);
+  var page = "";
+  if (m) {
+    var stem = m[1].toLowerCase();
+    if (stem !== "index") {
+      if (known.indexOf(stem) < 0 && known.indexOf(stem + "/index") >= 0) stem += "/index";
+      if (known.indexOf(stem) >= 0) page = stem.replace(/(^|\/)index$/, "");
+      if (page !== "") page += "/";
+    }
+  }
+  location.replace("https://andbible.org/docs/" + page + location.hash);
+</script>
+</head><body><p>This page has moved to <a href="https://andbible.org/docs/">andbible.org/docs/</a>.</p></body></html>
